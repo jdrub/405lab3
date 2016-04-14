@@ -8,6 +8,7 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/AT89C51IC2 C:|Users|jdrub|Documents|school|enee445|lab 3|8051Cylon_Ncount|8051Cylon_10000count|8051_logic|AT89C51IC2.v</ClosedNode>
+         <ClosedNode>/AT89C51IC2 H:|ENEE405|405lab3|8051Cylon_Ncount|8051Cylon_10000count|8051_logic|AT89C51IC2.v</ClosedNode>
          <ClosedNode>/mc8051_core - struc C:|Users|jdrub|Documents|school|enee445|lab 3|8051Cylon_Ncount|8051Cylon_10000count|8051_logic|mc8051_core_struc.vhd</ClosedNode>
          <ClosedNode>/mc8051_core - struc C:|Users|jdrub|Documents|school|enee445|lab 3|8051Cylon_Ncount|8051Cylon_10000count|8051_logic|mc8051_core_struc.vhd/i_mc8051_alu - mc8051_alu - struc</ClosedNode>
          <ClosedNode>/mc8051_core - struc C:|Users|jdrub|Documents|school|enee445|lab 3|8051Cylon_Ncount|8051Cylon_10000count|8051_logic|mc8051_core_struc.vhd/i_mc8051_control - mc8051_control - struc</ClosedNode>
@@ -23,16 +24,17 @@
          <ClosedNode>/top C:|_umd|_2014-09-01|445_F14|_work|1008|01mc8051|hardware|BRAM|top.sch/XLXI_1 - mc8051_core - struc</ClosedNode>
          <ClosedNode>/top C:|_umd|_2014-09-01|445_F14|_work|1014|06mc8051|hardware|BRAM|top.sch/XLXI_1 - mc8051_core - struc/i_mc8051_alu - mc8051_alu - struc</ClosedNode>
          <ClosedNode>/top C:|_umd|_2014-09-01|445_F14|_work|1014|06mc8051|hardware|BRAM|top.sch/XLXI_1 - mc8051_core - struc/i_mc8051_control - mc8051_control - struc</ClosedNode>
+         <ClosedNode>/top H:|ENEE405|405lab3|8051Cylon_Ncount|8051Cylon_10000count|8051_logic|top.sch</ClosedNode>
          <ClosedNode>PROJECT</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>top (C:/Users/jdrub/Documents/school/enee445/lab 3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/top.sch)</SelectedItem>
+         <SelectedItem>AT89C51IC2 (H:/ENEE405/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/AT89C51IC2.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000e6000000020000000000000000000000000200000064ffffffff000000810000000300000002000000e60000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>top (C:/Users/jdrub/Documents/school/enee445/lab 3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/top.sch)</CurrentItem>
+      <CurrentItem>AT89C51IC2 (H:/ENEE405/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/AT89C51IC2.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -54,7 +56,7 @@
       <SelectedItems>
          <SelectedItem>top.sch</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >24</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000252000000040101000100000000000000000000000064ffffffff000000810000000000000004000000730000000100000000000000240000000100000000000000660000000100000000000001550000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
@@ -68,7 +70,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000fc000000010001000100000000000000000000000064ffffffff000000810000000000000001000000fc0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
@@ -88,8 +90,8 @@
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem/>
    </ItemView>
-   <SourceProcessView>000000ff00000000000000020000011d0000007f01000000040100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <SourceProcessView>000000ff0000000000000002000002290000009701000000040100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
@@ -97,6 +99,7 @@
          <ClosedNode>/mc8051_core - struc C:|Users|jdrub|Documents|school|enee445|lab 3|8051Cylon_Ncount|8051Cylon_10000count|8051_logic|mc8051_core_struc.vhd</ClosedNode>
          <ClosedNode>/mc8051_core - struc C:|Users|jdrub|Documents|school|enee445|lab 3|8051Cylon_Ncount|8051Cylon_10000count|8051_logic|mc8051_core_struc.vhd/i_mc8051_alu - mc8051_alu - struc</ClosedNode>
          <ClosedNode>/mc8051_core - struc C:|Users|jdrub|Documents|school|enee445|lab 3|8051Cylon_Ncount|8051Cylon_10000count|8051_logic|mc8051_core_struc.vhd/i_mc8051_control - mc8051_control - struc</ClosedNode>
+         <ClosedNode>/mc8051_core - struc H:|ENEE405|405lab3|8051Cylon_Ncount|8051Cylon_10000count|8051_logic|mc8051_core_struc.vhd</ClosedNode>
          <ClosedNode>/mc8051_top - struc C:|_umd|_2012-09-01|445_F12|_work|mc8051_design00|mc8051_design|vhdl|mc8051_top_struc.vhd/i_mc8051_core - mc8051_core - struc</ClosedNode>
          <ClosedNode>/mc8051_top - struc C:|_umd|_2012-09-01|445_F12|_work|mc8051_design00|mc8051_design|vhdl|mc8051_top_struc.vhd/i_mc8051_core - mc8051_core - struc/i_mc8051_alu - mc8051_alu - struc/i_addsub_core - addsub_core - struc</ClosedNode>
          <ClosedNode>/mc8051_top - struc C:|_umd|_2012-09-01|445_F12|_work|mc8051_design00|mc8051_design|vhdl|mc8051_top_struc.vhd/i_mc8051_core - mc8051_core - struc/i_mc8051_control - mc8051_control - struc</ClosedNode>
@@ -106,13 +109,13 @@
          <ClosedNode>PROJECT</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>test (C:/Users/jdrub/Documents/school/enee445/lab 3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/toptest.v)</SelectedItem>
+         <SelectedItem>Unassigned User Library Modules</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000172000000020000000000000000000000000200000064ffffffff000000810000000300000002000001720000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>test (C:/Users/jdrub/Documents/school/enee445/lab 3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/toptest.v)</CurrentItem>
+      <CurrentItem>Unassigned User Library Modules</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -123,7 +126,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000eb000000010000000100000000000000000000000064ffffffff000000810000000000000001000000eb0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -180,7 +183,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000eb000000010000000100000000000000000000000064ffffffff000000810000000000000001000000eb0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -286,26 +289,26 @@
          <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000eb000000010000000100000000000000000000000064ffffffff000000810000000000000001000000eb0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="PostTransSim" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000fc000000010000000100000000000000000000000064ffffffff000000810000000000000001000000fc0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="PostMapSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
