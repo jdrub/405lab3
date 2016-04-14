@@ -1,3 +1,0 @@
-verilog isim_temp "CLKDIV.v"
-verilog isim_temp "toptest.v"
-verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
