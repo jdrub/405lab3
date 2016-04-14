@@ -1,5 +1,5 @@
 ISim log file
-Running: H:\ENEE405\405lab3\8051Cylon_Ncount\8051Cylon_10000count\8051_logic\test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -view H:/ENEE405/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/UCF-BRAMprobe01.wcfg -wdb H:/ENEE405/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/test_isim_beh.wdb 
+Running: H:\ENEE405\405lab3\8051Cylon_Ncount\8051Cylon_10000count\8051_logic\mux2_1_busout_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -view H:/ENEE405/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/UCF-BRAMprobe01.wcfg -wdb H:/ENEE405/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mux2_1_busout_test_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -9,9 +9,4 @@ Time resolution is 1 ps
 # onerror resume
 # run 1000 ns
 Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-# restart
-# run all
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-Stopped at time : 122959040 ns : File "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/toptest.v" Line 13
+The simulator has terminated in an unexpected manner.  Please review the ISim log (isim.log) for details.

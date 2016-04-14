@@ -1,0 +1,3 @@
+verilog work "MUX2_1.v"
+verilog work "mux2_1_busout_test.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

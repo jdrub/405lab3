@@ -28,10 +28,14 @@
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="SPIREG.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="SPYMASTER.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="ShiftReg.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clkdiv_test_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux2_1_busout_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux2_1_busout_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="mux2_1_busout_test_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="mux4_1.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_isim_beh.exe"/>
@@ -46,7 +50,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1460665300" xil_pn:in_ck="5225442353816998457" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1460665300">
+    <transform xil_pn:end_ts="1460666525" xil_pn:in_ck="557827387535819234" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1460666525">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="AT89C51IC2.v"/>
@@ -66,6 +70,7 @@
       <outfile xil_pn:name="alucore_rtl.vhd"/>
       <outfile xil_pn:name="alumux_.vhd"/>
       <outfile xil_pn:name="alumux_rtl.vhd"/>
+      <outfile xil_pn:name="clkdiv_test.v"/>
       <outfile xil_pn:name="comb_divider_.vhd"/>
       <outfile xil_pn:name="comb_divider_rtl.vhd"/>
       <outfile xil_pn:name="comb_mltplr_.vhd"/>
@@ -88,15 +93,15 @@
       <outfile xil_pn:name="mc8051_tmrctr_.vhd"/>
       <outfile xil_pn:name="mc8051_tmrctr_rtl.vhd"/>
       <outfile xil_pn:name="mc8051_top_.vhd"/>
+      <outfile xil_pn:name="mux2_1_busout_test.v"/>
       <outfile xil_pn:name="mux4-1.v"/>
-      <outfile xil_pn:name="toptest.v"/>
       <outfile xil_pn:name="wiz_clkgen.v"/>
     </transform>
-    <transform xil_pn:end_ts="1460665082" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4873880815104816208" xil_pn:start_ts="1460665082">
+    <transform xil_pn:end_ts="1460666353" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7003311164509938412" xil_pn:start_ts="1460666353">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1460665084" xil_pn:in_ck="-4955775048319397964" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7128902619997965778" xil_pn:start_ts="1460665082">
+    <transform xil_pn:end_ts="1460666355" xil_pn:in_ck="-4955775048319397964" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1272955426491282578" xil_pn:start_ts="1460666353">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -104,7 +109,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1460665300" xil_pn:in_ck="5225442353816998457" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1460665300">
+    <transform xil_pn:end_ts="1460666525" xil_pn:in_ck="557827387535819234" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1460666525">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="AT89C51IC2.v"/>
@@ -124,6 +129,7 @@
       <outfile xil_pn:name="alucore_rtl.vhd"/>
       <outfile xil_pn:name="alumux_.vhd"/>
       <outfile xil_pn:name="alumux_rtl.vhd"/>
+      <outfile xil_pn:name="clkdiv_test.v"/>
       <outfile xil_pn:name="comb_divider_.vhd"/>
       <outfile xil_pn:name="comb_divider_rtl.vhd"/>
       <outfile xil_pn:name="comb_mltplr_.vhd"/>
@@ -146,11 +152,11 @@
       <outfile xil_pn:name="mc8051_tmrctr_.vhd"/>
       <outfile xil_pn:name="mc8051_tmrctr_rtl.vhd"/>
       <outfile xil_pn:name="mc8051_top_.vhd"/>
+      <outfile xil_pn:name="mux2_1_busout_test.v"/>
       <outfile xil_pn:name="mux4-1.v"/>
-      <outfile xil_pn:name="toptest.v"/>
       <outfile xil_pn:name="wiz_clkgen.v"/>
     </transform>
-    <transform xil_pn:end_ts="1460665303" xil_pn:in_ck="5225442353816998457" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5098507686063897880" xil_pn:start_ts="1460665300">
+    <transform xil_pn:end_ts="1460666528" xil_pn:in_ck="557827387535819234" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7792980268122966624" xil_pn:start_ts="1460666525">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -158,16 +164,16 @@
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="test_beh.prj"/>
-      <outfile xil_pn:name="test_isim_beh.exe"/>
+      <outfile xil_pn:name="mux2_1_busout_test_beh.prj"/>
+      <outfile xil_pn:name="mux2_1_busout_test_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1460665303" xil_pn:in_ck="4140465173363612911" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4444477213000501211" xil_pn:start_ts="1460665303">
+    <transform xil_pn:end_ts="1460666528" xil_pn:in_ck="-3817429981753230794" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8935337381546690733" xil_pn:start_ts="1460666528">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="test_isim_beh.wdb"/>
+      <outfile xil_pn:name="mux2_1_busout_test_isim_beh.wdb"/>
     </transform>
   </transforms>
 

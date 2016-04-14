@@ -7,6 +7,7 @@ module clkdiv_test();
 
 	initial begin
 		clk = 0;
+		#100;
 	end
 
 	always begin
