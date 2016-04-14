@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {C:/Users/jdrub/Documents/school/enee445/lab 3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/ShiftReg.v} -lang verilog -prj my8051 -o ShiftReg.spl -module ShiftReg -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ShiftReg.spl {C:/Users/jdrub/Documents/school/enee445/lab 3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/ShiftReg.sym} 

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="SPIREG">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2016-4-7T19:47:38</timestamp>
+    <attr value="SPIREG" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-288" name="CLK" />
+    <pin polarity="Input" x="0" y="-352" name="DI" />
+    <pin polarity="Input" x="0" y="-224" name="EN" />
+    <pin polarity="Input" x="0" y="32" name="ID_0" />
+    <pin polarity="Input" x="0" y="96" name="ID_1" />
+    <pin polarity="Input" x="0" y="-96" name="PLD(0:7)" />
+    <pin polarity="Input" x="0" y="-32" name="RSELIN(0:1)" />
+    <pin polarity="Output" x="384" y="-352" name="DO" />
+    <pin polarity="Output" x="384" y="-192" name="READY" />
+    <pin polarity="Output" x="384" y="-64" name="POUT(0:7)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-392" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin CLK" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin DI" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin EN" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin ID_0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="96" type="pin ID_1" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin PLD(0:7)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin RSELIN(0:1)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-352" type="pin DO" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-192" type="pin READY" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="320" y="-64" type="pin POUT(0:7)" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="96" y2="96" x1="64" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <rect width="64" x="0" y="-108" height="24" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <rect width="64" x="0" y="-44" height="24" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <line x2="384" y1="-352" y2="-352" x1="320" />
+        <line x2="384" y1="-192" y2="-192" x1="320" />
+        <rect width="64" x="324" y="-76" height="24" />
+        <line x2="384" y1="-64" y2="-64" x1="320" />
+        <rect width="256" x="64" y="-384" height="520" />
+    </graph>
+</symbol>

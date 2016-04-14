@@ -1,0 +1,82 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/top_top_sch_tb_isim_beh.exe -prj C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/top_top_sch_tb_beh.prj work.top_top_sch_tb work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/wiz_clkgen.v" into library work
+Analyzing Verilog file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/LUT_RAM_from_template02.v" into library work
+Analyzing Verilog file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/BRAM4kx8.v" into library work
+Analyzing Verilog file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/top.vf" into library work
+Analyzing Verilog file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/toptest.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_p.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/addsub_ovcy_.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/addsub_cy_.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/dcml_adjust_.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/control_mem_.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/control_fsm_.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/comb_mltplr_.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/comb_divider_.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/alumux_.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/alucore_.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/addsub_ovcy_rtl.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/addsub_cy_rtl.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/addsub_core_.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_tmrctr_.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_siu_.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_control_.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_alu_.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/dcml_adjust_rtl.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/control_mem_rtl.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/control_fsm_rtl.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/comb_mltplr_rtl.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/comb_divider_rtl.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/alumux_rtl.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/alucore_rtl.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/addsub_core_struc.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_tmrctr_rtl.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_siu_rtl.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_core_.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_control_struc.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_alu_struc.vhd" into library work
+Parsing VHDL file "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_core_struc.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 97776 KB
+Fuse CPU Usage: 359 ms
+Compiling module AND2
+Compiling module LUT_RAM_from_template
+Compiling module RAMB16_S9
+Compiling module BRAM4kx8
+Compiling module BUFG
+Compiling module IBUFG
+Compiling module dcm_sp_clock_divide_by_2
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_clock_lost
+Compiling module DCM_SP(CLKDV_DIVIDE=5.0,CLKIN_PE...
+Compiling module wiz_clkgen
+Compiling module top
+Compiling module top_top_sch_tb
+Compiling module glbl
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package mc8051_p
+Compiling architecture rtl of entity control_fsm [control_fsm_default]
+Compiling architecture rtl of entity control_mem [control_mem_default]
+Compiling architecture struc of entity mc8051_control [mc8051_control_default]
+Compiling architecture rtl of entity alumux [\alumux(8)\]
+Compiling architecture rtl of entity alucore [\alucore(8)\]
+Compiling architecture rtl of entity addsub_cy [\addsub_cy(4)\]
+Compiling architecture rtl of entity addsub_ovcy [\addsub_ovcy(4)\]
+Compiling architecture struc of entity addsub_core [\addsub_core(8)\]
+Compiling architecture rtl of entity comb_mltplr [\comb_mltplr(8)\]
+Compiling architecture rtl of entity comb_divider [\comb_divider(8)\]
+Compiling architecture rtl of entity dcml_adjust [\dcml_adjust(8)\]
+Compiling architecture struc of entity mc8051_alu [\mc8051_alu(8)\]
+Compiling architecture rtl of entity mc8051_siu [mc8051_siu_default]
+Compiling architecture rtl of entity mc8051_tmrctr [mc8051_tmrctr_default]
+Compiling architecture struc of entity mc8051_core [mc8051_core_default]
+Time Resolution for simulation is 1ps.
+ERROR:Simulator:861 - Failed to link the design

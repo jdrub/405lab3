@@ -1,0 +1,98 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        02/11/2016  14:45:46  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE BLINKY.obj, REG51F.obj TO BLINKY CODE (0X0000-0X7FFF) XDATA (0X8000-0XDFFE)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  BLINKY.obj (BLINKY)
+  REG51F.obj (REG51F)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  BLINKY (BLINKY)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            IDATA   0008H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     0040H     INBLOCK      ?PR?MAIN?BLINKY
+            CODE    0840H     000CH     UNIT         ?C_C51STARTUP
+            CODE    084CH     0001H     INBLOCK      ?PR?WAIT?BLINKY
+
+
+
+OVERLAY MAP OF MODULE:   BLINKY (BLINKY)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?BLINKY
+
+?PR?MAIN?BLINKY
+  +--> ?PR?WAIT?BLINKY
+
+
+
+SYMBOL TABLE OF MODULE:  BLINKY (BLINKY)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        BLINKY
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  C:0800H         PUBLIC        main
+  C:084CH         PUBLIC        wait
+  -------         PROC          WAIT
+  C:084CH         LINE#         24
+BL51 BANKED LINKER/LOCATER V6.22                                                      02/11/2016  14:45:46  PAGE 2
+
+
+  C:084CH         LINE#         26
+  -------         ENDPROC       WAIT
+  -------         PROC          MAIN
+  -------         DO            
+  D:0006H         SYMBOL        i
+  D:0005H         SYMBOL        j
+  -------         ENDDO         
+  C:0800H         LINE#         28
+  C:0800H         LINE#         32
+  C:0800H         LINE#         33
+  C:0808H         LINE#         34
+  C:080AH         LINE#         35
+  C:080DH         LINE#         36
+  C:080FH         LINE#         37
+  C:081AH         LINE#         38
+  C:0820H         LINE#         40
+  C:0828H         LINE#         41
+  C:082AH         LINE#         42
+  C:082DH         LINE#         43
+  C:082FH         LINE#         44
+  C:083AH         LINE#         45
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        BLINKY
+
+  -------         MODULE        REG51F
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  -------         ENDMOD        REG51F
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0041H BYTE ( 3%) *
+******************************************************************************
+
+Program Size: data=9.0 xdata=0 code=80
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,35 @@
+AR mc8051_alu struc "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_alu_struc.vhd" sub00/vhpl17 1455227314
+EN addsub_core NULL "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/addsub_core_.vhd" sub00/vhpl10 1455227307
+EN mc8051_core NULL "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_core_.vhd" sub00/vhpl15 1455227312
+AR mc8051_tmrctr rtl "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_tmrctr_rtl.vhd" sub00/vhpl20 1455227317
+AR alumux rtl "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/alumux_rtl.vhd" sub00/vhpl23 1455227320
+EN mc8051_control NULL "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_control_.vhd" sub00/vhpl13 1455227310
+AR comb_mltplr rtl "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/comb_mltplr_rtl.vhd" sub00/vhpl25 1455227322
+PH mc8051_p NULL "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_p.vhd" sub00/vhpl00 1455227297
+EN control_mem NULL "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/control_mem_.vhd" sub00/vhpl04 1455227301
+EN comb_divider NULL "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/comb_divider_.vhd" sub00/vhpl07 1455227304
+AR comb_divider rtl "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/comb_divider_rtl.vhd" sub00/vhpl24 1455227321
+AR mc8051_control struc "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_control_struc.vhd" sub00/vhpl18 1455227315
+AR alucore rtl "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/alucore_rtl.vhd" sub00/vhpl22 1455227319
+EN mc8051_tmrctr NULL "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_tmrctr_.vhd" sub00/vhpl11 1455227308
+EN mc8051_alu NULL "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_alu_.vhd" sub00/vhpl14 1455227311
+EN addsub_ovcy NULL "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/addsub_ovcy_.vhd" sub00/vhpl01 1455227298
+AR dcml_adjust rtl "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/dcml_adjust_rtl.vhd" sub00/vhpl28 1455227325
+MO top NULL top.vf vlg6F/top.bin 1455227298
+EN addsub_cy NULL "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/addsub_cy_.vhd" sub00/vhpl02 1455227299
+EN alucore NULL "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/alucore_.vhd" sub00/vhpl09 1455227306
+EN comb_mltplr NULL "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/comb_mltplr_.vhd" sub00/vhpl06 1455227303
+AR addsub_cy rtl "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/addsub_cy_rtl.vhd" sub00/vhpl29 1455227326
+AR control_fsm rtl "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/control_fsm_rtl.vhd" sub00/vhpl26 1455227323
+EN mc8051_siu NULL "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_siu_.vhd" sub00/vhpl12 1455227309
+AR addsub_core struc "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/addsub_core_struc.vhd" sub00/vhpl21 1455227318
+EN control_fsm NULL "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/control_fsm_.vhd" sub00/vhpl05 1455227302
+AR control_mem rtl "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/control_mem_rtl.vhd" sub00/vhpl27 1455227324
+MO BRAM4kx8 NULL BRAM4kx8.v vlg55/_b_r_a_m4kx8.bin 1455227298
+MO LUT_RAM_from_template NULL LUT_RAM_from_template02.v vlg12/_l_u_t___r_a_m__from__template.bin 1455227298
+AR addsub_ovcy rtl "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/addsub_ovcy_rtl.vhd" sub00/vhpl30 1455227327
+EN alumux NULL "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/alumux_.vhd" sub00/vhpl08 1455227305
+EN dcml_adjust NULL "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/dcml_adjust_.vhd" sub00/vhpl03 1455227300
+AR mc8051_siu rtl "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_siu_rtl.vhd" sub00/vhpl19 1455227316
+MO wiz_clkgen NULL wiz_clkgen.v vlg65/wiz__clkgen.bin 1455227298
+AR mc8051_core struc "C:/Users/jdrub/Documents/school/enee445/lab 2/8051Cylon_Ncount/8051Cylon_3count/8051_logic/mc8051_core_struc.vhd" sub00/vhpl16 1455227313

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/_umd/_2014-09-01/445_F14/_work/1008/01mc8051/hardware/BRAM/top_top_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mc8051_p" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="top_top_sch_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/top_top_sch_tb/P1out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">P1out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">P1out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_top_sch_tb/resetin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">resetin</obj_property>
+      <obj_property name="ObjectShortName">resetin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_top_sch_tb/clkin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkin</obj_property>
+      <obj_property name="ObjectShortName">clkin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_top_sch_tb/PERIOD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PERIOD[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_top_sch_tb/UUT/ROMaddr" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ROMaddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ROMaddr[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_top_sch_tb/UUT/ROMaddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ROMaddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ROMaddr[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_top_sch_tb/UUT/ROMdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ROMdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ROMdata[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_top_sch_tb/UUT/ram_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr[6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_top_sch_tb/UUT/ram_dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_dataout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_dataout[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_top_sch_tb/UUT/ram_datain" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_datain[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_datain[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

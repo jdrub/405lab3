@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Feb 11 16:38:03 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "P1out<0>" LOCATE = SITE "J14" LEVEL 1;
+COMP "P1out<1>" LOCATE = SITE "J15" LEVEL 1;
+COMP "P1out<2>" LOCATE = SITE "K15" LEVEL 1;
+COMP "P1out<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "P1out<4>" LOCATE = SITE "E17" LEVEL 1;
+COMP "P1out<5>" LOCATE = SITE "P15" LEVEL 1;
+COMP "P1out<6>" LOCATE = SITE "F4" LEVEL 1;
+COMP "P1out<7>" LOCATE = SITE "R4" LEVEL 1;
+COMP "clkin" LOCATE = SITE "B8" LEVEL 1;
+COMP "resetin" LOCATE = SITE "B18" LEVEL 1;
+COMP "hlt<0>" LOCATE = SITE "G18" LEVEL 1;
+COMP "hlt<1>" LOCATE = SITE "H18" LEVEL 1;
+COMP "hlt<2>" LOCATE = SITE "K18" LEVEL 1;
+COMP "hlt<3>" LOCATE = SITE "K17" LEVEL 1;
+COMP "hlt<4>" LOCATE = SITE "L14" LEVEL 1;
+COMP "hlt<5>" LOCATE = SITE "L13" LEVEL 1;
+COMP "hlt<6>" LOCATE = SITE "N17" LEVEL 1;
+COMP "hlt<7>" LOCATE = SITE "R17" LEVEL 1;
+COMP "XLXI_11/ROM2k_00" LOCATE = SITE "RAMB16_X1Y2" LEVEL 1;
+COMP "XLXI_11/ROM2k_01" LOCATE = SITE "RAMB16_X1Y1" LEVEL 1;
+SCHEMATIC END;
+

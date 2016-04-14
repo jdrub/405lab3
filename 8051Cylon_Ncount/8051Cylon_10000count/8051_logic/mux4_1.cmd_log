@@ -1,0 +1,4 @@
+vhdtdtfi -lib work {C:/Users/jdrub/Documents/school/enee445/lab 3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mux4-1.v} -lang verilog -prj my8051 -o mux4_1.spl -module mux4_1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e mux4_1.spl {C:/Users/jdrub/Documents/school/enee445/lab 3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mux4_1.sym} 
+vhdtdtfi -lib work {C:/Users/jdrub/Documents/school/enee445/lab 3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mux4-1.v} -lang verilog -prj my8051 -o mux4_1.spl -module mux4_1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e mux4_1.spl {C:/Users/jdrub/Documents/school/enee445/lab 3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mux4_1.sym} 

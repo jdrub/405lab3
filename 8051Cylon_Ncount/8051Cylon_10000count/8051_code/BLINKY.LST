@@ -1,0 +1,102 @@
+C51 COMPILER V9.54   BLINKY                                                                03/03/2016 16:32:31 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE BLINKY
+OBJECT MODULE PLACED IN BLINKY.OBJ
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE BLINKY.C ROM(SMALL) OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND CODE TAB
+                    -S(2)
+
+line level    source
+
+   1          //Blinky.c wmh 2015-02-18 : generates 'Cylon' scan on port P1. Set delaycount (below) =3 for Xilinx simula
+             -tion, =10,000 to run on FPGA
+   2          //  - program outputs on port P1 and use registers R5 (=j) and R6:R7 (=i) (see BLINKY.LST)
+   3          //  - conversion of .hex to .memh format for initializing ROM definition in LUT_ROM3Kx8v01.v is performed 
+             -by hex2readmemh.exe
+   4          //    (see entry in Project > Options for Target > User) 
+   5          //  - todo -- update some registers in an .asm
+   6          // > Project > Options changes:
+   7          //    Target : Oregano Systems 8051 core
+   8          //    checked 'Use Onchip ROM (0x0-0xFFF)'   
+   9          
+  10          /* BLINKY.C - LED Flasher for the Keil MCBx51 Evaluation Board with 80C51 device*/
+  11                            
+  12          #include <REG51F.H>
+  13          
+  14          // When you have enabled the option Stop Program Execution with Serial
+  15          // Interrupt, the Monitor-51 uses the serial interrupt of the UART.
+  16          // It is therefore required to reserve the memory locations for the interrupt
+  17          // vector.  You can do this by adding one of the following code lines:
+  18          
+  19          // char code reserve [3] _at_ 0x23;   // when using on-chip UART for communication
+  20          // char code reserve [3] _at_  0x3;   // when using off-chip UART for communication
+  21          
+  22          #define DELAYCOUNT  10000       //for hardware this was 10000; for simulation make it 3
+  23          
+  24          //void wait (void)  { /* wait function */
+  25          //  while(P0 == 1);                                   /* only to delay for LED flashes */
+  26          //}
+  27          
+  28          void main (void)  {
+  29   1      //  unsigned char k = P2;
+  30   1      //  P1 = k;
+  31   1      //  unsigned int i;                     /* Delay var */
+  32   1      //  unsigned char j;                    /* LED var */
+  33   1      
+  34   1      //  while (1) {                         /* Loop forever */
+  35   1      //    for (j=0x01; j< 0x80; j<<=1)  {   /* Blink LED 0, 1, 2, 3, 4, 5, 6 */
+  36   1      //      P1 = j;                         /* Output to LED Port */
+  37   1      //      for (i = 0; i < DELAYCOUNT; i++)  {  /* Delay for 10000 Counts */
+  38   1      //       wait ();                       /* call wait function */
+  39   1      //      }
+  40   1      //    }
+  41   1      //    
+  42   1      //      wait();
+  43   1      //    
+  44   1      //    for (j=0x80; j> 0x01; j>>=1)  {   /* Blink LED 6, 5, 4, 3, 2, 1 */
+  45   1      //      P1 = j;                         /* Output to LED Port */
+  46   1      //      for (i = 0; i < DELAYCOUNT; i++)  {  /* Delay for 10000 Counts */
+  47   1      //       wait ();                       /* call wait function */
+  48   1      //      }
+  49   1      //    }
+  50   1      //  }
+  51   1      
+  52   1      P3 = P0;
+C51 COMPILER V9.54   BLINKY                                                                03/03/2016 16:32:31 PAGE 2   
+
+  53   1      P1 = P2;
+  54   1      P2 = 0;
+  55   1      
+  56   1      }
+C51 COMPILER V9.54   BLINKY                                                                03/03/2016 16:32:31 PAGE 3   
+
+ASSEMBLY LISTING OF GENERATED OBJECT CODE
+
+
+             ; FUNCTION main (BEGIN)
+                                           ; SOURCE LINE # 28
+                                           ; SOURCE LINE # 52
+0000 8580B0            MOV     P3,P0
+                                           ; SOURCE LINE # 53
+0003 85A090            MOV     P1,P2
+                                           ; SOURCE LINE # 54
+0006 E4                CLR     A
+0007 F5A0              MOV     P2,A
+                                           ; SOURCE LINE # 56
+0009 22                RET     
+             ; FUNCTION main (END)
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     10    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

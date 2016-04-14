@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\jdrub\Documents\school\enee445\lab 3\8051Cylon_Ncount\8051Cylon_10000count\8051_logic\top.ncd
+OUTFILE=C:\Users\jdrub\Documents\school\enee445\lab 3\8051Cylon_Ncount\8051Cylon_10000count\8051_logic\top.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\jdrub\Documents\school\enee445\lab 3\8051Cylon_Ncount\8051Cylon_10000count\8051_logic
+LICENSE=WebPack
+USER_INFO=210824846_0_0_516

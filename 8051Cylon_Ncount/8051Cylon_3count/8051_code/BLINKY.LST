@@ -1,0 +1,158 @@
+C51 COMPILER V9.54   BLINKY                                                                02/11/2016 14:45:45 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE BLINKY
+OBJECT MODULE PLACED IN BLINKY.OBJ
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE BLINKY.C ROM(SMALL) OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND CODE TAB
+                    -S(2)
+
+line level    source
+
+   1          //Blinky.c wmh 2015-02-18 : generates 'Cylon' scan on port P1. Set delaycount (below) =3 for Xilinx simula
+             -tion, =10,000 to run on FPGA
+   2          //  - program outputs on port P1 and use registers R5 (=j) and R6:R7 (=i) (see BLINKY.LST)
+   3          //  - conversion of .hex to .memh format for initializing ROM definition in LUT_ROM3Kx8v01.v is performed 
+             -by hex2readmemh.exe
+   4          //    (see entry in Project > Options for Target > User) 
+   5          //  - todo -- update some registers in an .asm
+   6          // > Project > Options changes:
+   7          //    Target : Oregano Systems 8051 core
+   8          //    checked 'Use Onchip ROM (0x0-0xFFF)'   
+   9          
+  10          /* BLINKY.C - LED Flasher for the Keil MCBx51 Evaluation Board with 80C51 device*/
+  11                            
+  12          #include <REG51F.H>
+  13          
+  14          // When you have enabled the option Stop Program Execution with Serial
+  15          // Interrupt, the Monitor-51 uses the serial interrupt of the UART.
+  16          // It is therefore required to reserve the memory locations for the interrupt
+  17          // vector.  You can do this by adding one of the following code lines:
+  18          
+  19          // char code reserve [3] _at_ 0x23;   // when using on-chip UART for communication
+  20          // char code reserve [3] _at_  0x3;   // when using off-chip UART for communication
+  21          
+  22          #define DELAYCOUNT  3       //for hardware this was 10000; for simulation make it 3
+  23          
+  24          void wait (void)  {                   /* wait function */
+  25   1        ;                                   /* only to delay for LED flashes */
+  26   1      }
+  27          
+  28          void main (void)  {
+  29   1        unsigned int i;                     /* Delay var */
+  30   1        unsigned char j;                    /* LED var */
+  31   1      
+  32   1        while (1) {                         /* Loop forever */
+  33   2          for (j=0x01; j< 0x80; j<<=1)  {   /* Blink LED 0, 1, 2, 3, 4, 5, 6 */
+  34   3            P1 = j;                         /* Output to LED Port */
+  35   3            for (i = 0; i < DELAYCOUNT; i++)  {  /* Delay for 10000 Counts */
+  36   4             wait ();                       /* call wait function */
+  37   4            }
+  38   3          }
+  39   2      
+  40   2          for (j=0x80; j> 0x01; j>>=1)  {   /* Blink LED 6, 5, 4, 3, 2, 1 */
+  41   3            P1 = j;                         /* Output to LED Port */
+  42   3            for (i = 0; i < DELAYCOUNT; i++)  {  /* Delay for 10000 Counts */
+  43   4             wait ();                       /* call wait function */
+  44   4            }
+  45   3          }
+  46   2        }
+  47   1      }
+C51 COMPILER V9.54   BLINKY                                                                02/11/2016 14:45:45 PAGE 2   
+
+ASSEMBLY LISTING OF GENERATED OBJECT CODE
+
+
+             ; FUNCTION wait (BEGIN)
+                                           ; SOURCE LINE # 24
+                                           ; SOURCE LINE # 26
+0000 22                RET     
+             ; FUNCTION wait (END)
+
+             ; FUNCTION main (BEGIN)
+                                           ; SOURCE LINE # 28
+;---- Variable 'i' assigned to Register 'R6/R7' ----
+0000         ?C0002:
+                                           ; SOURCE LINE # 32
+                                           ; SOURCE LINE # 33
+;---- Variable 'j' assigned to Register 'R5' ----
+0000 7D01              MOV     R5,#01H
+0002         ?C0004:
+0002 ED                MOV     A,R5
+0003 C3                CLR     C
+0004 9480              SUBB    A,#080H
+0006 5018              JNC     ?C0005
+                                           ; SOURCE LINE # 34
+0008 8D90              MOV     P1,R5
+                                           ; SOURCE LINE # 35
+000A E4                CLR     A
+000B FE                MOV     R6,A
+000C FF                MOV     R7,A
+000D         ?C0007:
+                                           ; SOURCE LINE # 36
+000D 1100        R     ACALL   wait
+                                           ; SOURCE LINE # 37
+000F 0F                INC     R7
+0010 BF0001            CJNE    R7,#00H,?C0017
+0013 0E                INC     R6
+0014         ?C0017:
+0014 EF                MOV     A,R7
+0015 6403              XRL     A,#03H
+0017 4E                ORL     A,R6
+0018 70F3              JNZ     ?C0007
+                                           ; SOURCE LINE # 38
+001A         ?C0006:
+001A ED                MOV     A,R5
+001B 25E0              ADD     A,ACC
+001D FD                MOV     R5,A
+001E 80E2              SJMP    ?C0004
+0020         ?C0005:
+                                           ; SOURCE LINE # 40
+0020 7D80              MOV     R5,#080H
+0022         ?C0010:
+0022 ED                MOV     A,R5
+0023 D3                SETB    C
+0024 9401              SUBB    A,#01H
+0026 40D8              JC      ?C0002
+                                           ; SOURCE LINE # 41
+0028 8D90              MOV     P1,R5
+                                           ; SOURCE LINE # 42
+002A E4                CLR     A
+002B FE                MOV     R6,A
+002C FF                MOV     R7,A
+002D         ?C0013:
+                                           ; SOURCE LINE # 43
+C51 COMPILER V9.54   BLINKY                                                                02/11/2016 14:45:45 PAGE 3   
+
+002D 1100        R     ACALL   wait
+                                           ; SOURCE LINE # 44
+002F 0F                INC     R7
+0030 BF0001            CJNE    R7,#00H,?C0018
+0033 0E                INC     R6
+0034         ?C0018:
+0034 EF                MOV     A,R7
+0035 6403              XRL     A,#03H
+0037 4E                ORL     A,R6
+0038 70F3              JNZ     ?C0013
+                                           ; SOURCE LINE # 45
+003A         ?C0012:
+003A ED                MOV     A,R5
+003B C3                CLR     C
+003C 13                RRC     A
+003D FD                MOV     R5,A
+003E 80E2              SJMP    ?C0010
+             ; FUNCTION main (END)
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     65    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

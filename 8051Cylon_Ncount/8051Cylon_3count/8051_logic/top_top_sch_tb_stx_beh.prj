@@ -1,0 +1,6 @@
+verilog isim_temp "wiz_clkgen.v"
+verilog isim_temp "LUT_RAM_from_template02.v"
+verilog isim_temp "BRAM4kx8.v"
+verilog isim_temp "top.vf"
+verilog isim_temp "toptest.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
