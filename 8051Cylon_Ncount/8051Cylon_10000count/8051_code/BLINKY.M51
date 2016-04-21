@@ -1,4 +1,4 @@
-BL51 BANKED LINKER/LOCATER V6.22                                                        03/03/2016  16:32:32  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22                                                        04/21/2016  16:24:14  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
@@ -28,7 +28,7 @@ LINK MAP OF MODULE:  BLINKY (BLINKY)
             CODE    0000H     0003H     ABSOLUTE     
                     0003H     07FDH                  *** GAP ***
             CODE    0800H     000CH     UNIT         ?C_C51STARTUP
-            CODE    080CH     000AH     INBLOCK      ?PR?MAIN?BLINKY
+            CODE    080CH     0007H     INBLOCK      ?PR?MAIN?BLINKY
 
 
 
@@ -52,19 +52,16 @@ SYMBOL TABLE OF MODULE:  BLINKY (BLINKY)
   C:0000H         SYMBOL        _ICE_DUMMY_
   D:0080H         PUBLIC        P0
   D:0090H         PUBLIC        P1
-  D:00A0H         PUBLIC        P2
-  D:00B0H         PUBLIC        P3
   C:080CH         PUBLIC        main
   -------         PROC          MAIN
   C:080CH         LINE#         28
   C:080CH         LINE#         52
   C:080FH         LINE#         53
-BL51 BANKED LINKER/LOCATER V6.22                                                      03/03/2016  16:32:32  PAGE 2
-
-
-  C:0812H         LINE#         54
-  C:0815H         LINE#         56
+  C:0812H         LINE#         55
   -------         ENDPROC       MAIN
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/21/2016  16:24:14  PAGE 2
+
+
   -------         ENDMOD        BLINKY
 
   -------         MODULE        REG51F
@@ -72,8 +69,8 @@ SYMBOL TABLE OF MODULE:  BLINKY (BLINKY)
   -------         ENDMOD        REG51F
 
 ******************************************************************************
-* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 000AH BYTE ( 0%) *
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0007H BYTE ( 0%) *
 ******************************************************************************
 
-Program Size: data=9.0 xdata=0 code=25
+Program Size: data=9.0 xdata=0 code=22
 LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

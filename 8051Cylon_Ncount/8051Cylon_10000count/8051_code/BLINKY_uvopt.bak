@@ -228,7 +228,7 @@
         <AsmSymb>1</AsmSymb>
         <AsmXref>0</AsmXref>
         <CCond>1</CCond>
-        <CCode>0</CCode>
+        <CCode>1</CCode>
         <CListInc>0</CListInc>
         <CSymb>0</CSymb>
         <LinkerCodeListing>0</LinkerCodeListing>
@@ -377,7 +377,7 @@
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
       <TopLine>1</TopLine>
-      <CurrentLine>1</CurrentLine>
+      <CurrentLine>23</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\BLINKY.C</PathWithFileName>
       <FilenameWithoutPath>BLINKY.C</FilenameWithoutPath>
@@ -409,7 +409,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>3673160</ColumnNumber>
+      <ColumnNumber>1577620</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
       <TopLine>0</TopLine>
       <CurrentLine>5</CurrentLine>
@@ -433,7 +433,7 @@
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>3673160</ColumnNumber>
+      <ColumnNumber>1577620</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
       <TopLine>0</TopLine>
       <CurrentLine>5</CurrentLine>
