@@ -134,14 +134,14 @@ NET "P1out<7>"      LOC = "R4";    # Bank = 3, Pin name = IO/VREF_3, Type = VREF
 #NET "Led<7>"      LOC = "P4";    # Bank = 3, Pin name = N.C., Type = N.C.,                            Sch name = LD7? other than s3e500
 
 ## Switches
-NET "P1in<0>"       LOC = "G18";   # Bank = 1, Pin name = IP, Type = INPUT,                             Sch name = SW0
-NET "P1in<1>"       LOC = "H18";   # Bank = 1, Pin name = IP/VREF_1, Type = VREF,                       Sch name = SW1
-NET "P1in<2>"       LOC = "K18";   # Bank = 1, Pin name = IP, Type = INPUT,                             Sch name = SW2
-NET "P1in<3>"       LOC = "K17";   # Bank = 1, Pin name = IP, Type = INPUT,                             Sch name = SW3
-NET "P1in<4>"       LOC = "L14";   # Bank = 1, Pin name = IP, Type = INPUT,                             Sch name = SW4
-NET "P1in<5>"       LOC = "L13";   # Bank = 1, Pin name = IP, Type = INPUT,                             Sch name = SW5
-NET "P1in<6>"       LOC = "N17";   # Bank = 1, Pin name = IP, Type = INPUT,                             Sch name = SW6
-NET "P1in<7>"       LOC = "R17";   # Bank = 1, Pin name = IP, Type = INPUT,                             Sch name = SW7
+NET "P0in<0>"       LOC = "G18";   # Bank = 1, Pin name = IP, Type = INPUT,                             Sch name = SW0
+NET "P0in<1>"       LOC = "H18";   # Bank = 1, Pin name = IP/VREF_1, Type = VREF,                       Sch name = SW1
+NET "P0in<2>"       LOC = "K18";   # Bank = 1, Pin name = IP, Type = INPUT,                             Sch name = SW2
+NET "P0in<3>"       LOC = "K17";   # Bank = 1, Pin name = IP, Type = INPUT,                             Sch name = SW3
+NET "P0in<4>"       LOC = "L14";   # Bank = 1, Pin name = IP, Type = INPUT,                             Sch name = SW4
+NET "P0in<5>"       LOC = "L13";   # Bank = 1, Pin name = IP, Type = INPUT,                             Sch name = SW5
+NET "P0in<6>"       LOC = "N17";   # Bank = 1, Pin name = IP, Type = INPUT,                             Sch name = SW6
+NET "P0in<7>"       LOC = "R17";   # Bank = 1, Pin name = IP, Type = INPUT,                             Sch name = SW7
 
 ## Buttons
 NET "resetin"      LOC = "B18";   # Bank = 1, Pin name = IP, Type = INPUT,                             Sch name = BTN0

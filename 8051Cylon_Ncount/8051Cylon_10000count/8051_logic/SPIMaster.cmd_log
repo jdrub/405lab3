@@ -1,0 +1,2 @@
+vhdtdtfi -lib work H:/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/SPIMaster.v -lang verilog -prj my8051 -o SPIMaster.spl -module SPIMaster -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w SPIMaster.spl H:/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/SPIMaster.sym 

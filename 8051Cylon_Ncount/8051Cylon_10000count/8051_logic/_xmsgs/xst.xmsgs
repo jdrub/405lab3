@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">top.vf</arg>&quot; line <arg fmt="%d" index="2">45</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">all_rxd_i</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_1</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">top.vf</arg>&quot; line <arg fmt="%d" index="2">45</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">all_t0_i</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_1</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">top.vf</arg>&quot; line <arg fmt="%d" index="2">45</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">all_t1_i</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_1</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">top.vf</arg>&quot; line <arg fmt="%d" index="2">45</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">clk</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_1</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">top.vf</arg>&quot; line <arg fmt="%d" index="2">45</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">datax_i</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_1</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">top.vf</arg>&quot; line <arg fmt="%d" index="2">45</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">int0_i</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_1</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">top.vf</arg>&quot; line <arg fmt="%d" index="2">45</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">int1_i</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_1</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">top.vf</arg>&quot; line <arg fmt="%d" index="2">45</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">p2_i</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_1</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">top.vf</arg>&quot; line <arg fmt="%d" index="2">45</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">p3_i</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_1</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">top.vf</arg>&quot; line <arg fmt="%d" index="2">77</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">CLK</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_8</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">top.vf</arg>&quot; line <arg fmt="%d" index="2">82</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">clkin</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_11</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">top.vf</arg>&quot; line <arg fmt="%d" index="2">91</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">miso</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_20</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/control_fsm_rtl.vhd</arg>&quot; line <arg fmt="%d" index="2">303</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;PX0&gt;, &lt;EX0&gt;, &lt;PT0&gt;, &lt;ET0&gt;, &lt;PX1&gt;, &lt;EX1&gt;, &lt;PT1&gt;, &lt;ET1&gt;, &lt;PS0&gt;, &lt;ES&gt;, &lt;CY&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/control_mem_rtl.vhd</arg>&quot; line <arg fmt="%d" index="2">556</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;EA&gt;, &lt;EX0&gt;, &lt;ET0&gt;, &lt;EX1&gt;, &lt;ET1&gt;, &lt;ES&gt;, &lt;PX0&gt;, &lt;PT0&gt;, &lt;PX1&gt;, &lt;PT1&gt;, &lt;PS0&gt;</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="old" >&quot;<arg fmt="%s" index="1">//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/control_mem_rtl.vhd</arg>&quot; line <arg fmt="%d" index="2">662</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="warning" file="Xst" num="38" delta="old" >Value &quot;<arg fmt="%s" index="1">{AUTO | DISTRIBUTED | PIPE_DISTRIBUTED}</arg>&quot; of property &quot;<arg fmt="%s" index="2">RAM_STYLE</arg>&quot; not applicable.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">DOUT</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;127&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;126&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;125&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;124&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;123&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;122&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;121&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;120&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;119&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;118&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;117&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;116&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;115&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;114&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;113&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;112&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;111&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;110&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;109&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;108&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;107&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;106&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;105&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;104&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;103&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;102&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;101&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;100&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;99&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;98&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;97&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;96&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;95&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;94&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;93&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;92&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;91&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;90&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;89&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;88&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;87&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;86&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;85&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;84&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;83&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;82&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;81&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;80&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;79&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;78&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;77&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;76&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;75&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;74&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;73&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;72&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;71&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;70&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;69&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;68&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;67&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;66&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;65&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;64&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;63&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;62&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;61&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;60&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;59&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;58&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;57&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;56&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;55&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;54&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;53&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;52&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;51&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;50&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;49&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;48&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;47&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;46&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;45&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;44&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;43&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;42&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;41&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;40&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;39&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;38&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;37&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;36&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;35&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;34&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;33&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;32&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;31&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;30&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;29&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;28&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;27&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;26&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;25&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;24&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;23&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;22&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;21&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;20&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;19&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;18&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;17&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;16&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;15&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;14&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;13&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;12&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;11&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;10&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;9&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;8&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;7&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;6&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;5&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;4&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;3&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;2&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;1&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">RAMDATA&lt;0&gt;</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">s_tran_sh&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">12</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">s_recv_state</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">6</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">s_rxpre_count</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">rxd_o</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">rxdwr_o</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2117" delta="old" >HDL ADVISOR - Mux Selector &lt;<arg fmt="%s" index="1">s_recv_state</arg>&gt; of Case statement line <arg fmt="%s" index="2">995</arg> was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+	- add an &apos;<arg fmt="%s" index="3">INIT</arg>&apos; attribute on signal &lt;<arg fmt="%s" index="4">s_recv_state</arg>&gt; (optimization is then done without any risk)
+	- use the attribute &apos;<arg fmt="%s" index="5">signal_encoding</arg> <arg fmt="%s" index="6">user</arg>&apos; to avoid onehot optimization
+	- use the attribute &apos;<arg fmt="%s" index="7">safe_implementation</arg> <arg fmt="%s" index="8">yes</arg>&apos; to force XST to perform a safe (but less efficient) optimization
+</msg>
+
+<msg type="info" file="Xst" num="2117" delta="old" >HDL ADVISOR - Mux Selector &lt;<arg fmt="%s" index="1">s_recv_state</arg>&gt; of Case statement line <arg fmt="%s" index="2">1093</arg> was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+	- add an &apos;<arg fmt="%s" index="3">INIT</arg>&apos; attribute on signal &lt;<arg fmt="%s" index="4">s_recv_state</arg>&gt; (optimization is then done without any risk)
+	- use the attribute &apos;<arg fmt="%s" index="5">signal_encoding</arg> <arg fmt="%s" index="6">user</arg>&apos; to avoid onehot optimization
+	- use the attribute &apos;<arg fmt="%s" index="7">safe_implementation</arg> <arg fmt="%s" index="8">yes</arg>&apos; to force XST to perform a safe (but less efficient) optimization
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">s_int0_sync_0</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">s_counth0</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">2</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">s_pre_count</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ie&lt;7:5&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ip&lt;7:5&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">psw&lt;6:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="2117" delta="old" >HDL ADVISOR - Mux Selector &lt;<arg fmt="%s" index="1">s_instr_category</arg>&gt; of Case statement line <arg fmt="%s" index="2">437</arg> was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+	- add an &apos;<arg fmt="%s" index="3">INIT</arg>&apos; attribute on signal &lt;<arg fmt="%s" index="4">s_instr_category</arg>&gt; (optimization is then done without any risk)
+	- use the attribute &apos;<arg fmt="%s" index="5">signal_encoding</arg> <arg fmt="%s" index="6">user</arg>&apos; to avoid onehot optimization
+	- use the attribute &apos;<arg fmt="%s" index="7">safe_implementation</arg> <arg fmt="%s" index="8">yes</arg>&apos; to force XST to perform a safe (but less efficient) optimization
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">scon&lt;0&gt;&lt;2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">s_tsel&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">s_ssel&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">acc_0</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">dph</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">p0_0</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">4</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">pcon</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">3</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">state</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">s_p0</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">2</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">s_wt_0</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">16</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">pc</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">sp</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">DOP_01</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">DOP_00</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2109" delta="old" >Contents of latch &lt;<arg fmt="%s" index="1">select</arg>&gt; never changes during circuit operation. The latch is removed and the signal is tied to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">s_cy&lt;3&gt;&lt;0&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">s_reset</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">s_clk</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">ROMaddr&lt;15:12&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_20</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">4</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">5</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">6</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">7</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">8</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">9</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">10</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">11</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">12</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">13</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">14</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">15</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">4</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">5</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">6</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">7</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">rxdwr_o</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">4</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">5</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">6</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">7</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">acc_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">4</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">5</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">6</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">7</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">p0_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">4</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">5</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">6</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">7</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">i_mc8051_alu</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">gen_mc8051_siu[0].i_mc8051_siu</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">gen_mc8051_tmrctr[0].i_mc8051_tmrctr</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_pre_count_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;XLXI_1/gen_mc8051_siu[0].i_mc8051_siu/rxd_o&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_int0_sync_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">16 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_pre_count_1&gt; &lt;XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_counth0_0&gt; &lt;XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_counth0_1&gt; &lt;XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_counth0_2&gt; &lt;XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_counth0_3&gt; &lt;XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_counth0_4&gt; &lt;XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_counth0_5&gt; &lt;XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_counth0_6&gt; &lt;XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_counth0_7&gt; &lt;XLXI_1/gen_mc8051_siu[0].i_mc8051_siu/rxdwr_o&gt; &lt;XLXI_1/gen_mc8051_siu[0].i_mc8051_siu/s_rxpre_count_0&gt; &lt;XLXI_1/gen_mc8051_siu[0].i_mc8051_siu/s_rxpre_count_1&gt; &lt;XLXI_1/gen_mc8051_siu[0].i_mc8051_siu/s_rxpre_count_2&gt; &lt;XLXI_1/gen_mc8051_siu[0].i_mc8051_siu/s_rxpre_count_3&gt; &lt;XLXI_1/gen_mc8051_siu[0].i_mc8051_siu/s_rxpre_count_4&gt; &lt;XLXI_1/gen_mc8051_siu[0].i_mc8051_siu/s_rxpre_count_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">LPM_LATCH_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;10&gt; &lt;9&gt; &lt;8&gt; &lt;7&gt; &lt;6&gt; &lt;5&gt; &lt;4&gt; &lt;3&gt; &lt;2&gt; &lt;1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">state_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">control_mem</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">38 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;state_1&gt; &lt;state_2&gt; &lt;acc_0&gt; &lt;pc_0&gt; &lt;pc_1&gt; &lt;pc_2&gt; &lt;pc_3&gt; &lt;pc_4&gt; &lt;pc_5&gt; &lt;pc_6&gt; &lt;pc_7&gt; &lt;pc_8&gt; &lt;pc_9&gt; &lt;pc_10&gt; &lt;pc_11&gt; &lt;pc_12&gt; &lt;pc_13&gt; &lt;pc_14&gt; &lt;pc_15&gt; &lt;pcon_0&gt; &lt;pcon_1&gt; &lt;pcon_2&gt; &lt;pcon_3&gt; &lt;s_wt_0_0&gt; &lt;s_wt_0_1&gt; &lt;sp_3&gt; &lt;sp_4&gt; &lt;sp_5&gt; &lt;sp_6&gt; &lt;sp_7&gt; &lt;dph_0&gt; &lt;dph_1&gt; &lt;dph_2&gt; &lt;dph_3&gt; &lt;dph_4&gt; &lt;dph_5&gt; &lt;dph_6&gt; &lt;dph_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">p0_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">control_mem</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;sp_0&gt; &lt;sp_1&gt; &lt;sp_2&gt; &lt;s_p0_0&gt; &lt;s_p0_1&gt; &lt;s_p0_2&gt; &lt;s_p0_3&gt; &lt;s_p0_4&gt; &lt;s_p0_5&gt; &lt;s_p0_6&gt; &lt;s_p0_7&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LPM_LATCH_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">LPM_LATCH_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">p0_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">control_mem</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">state_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">control_mem</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_int0_sync_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_pre_count_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_20/state_q_FSM_FFd2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_20/state_q_FSM_FFd1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_20/new_data_q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_20/mosi_q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_20/sck_q_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_20/sck_q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_20/data_q_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_20/data_q_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_20/data_q_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_20/data_q_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_20/data_q_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_20/data_q_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_20/data_q_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_20/data_q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_20/ctr_q_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_20/ctr_q_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_20/ctr_q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">XLXI_1/i_mc8051_alu/gen_multiplier1.i_comb_mltplr/Mmult_product_o</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">top</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

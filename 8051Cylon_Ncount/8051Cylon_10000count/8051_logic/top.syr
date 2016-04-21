@@ -1,0 +1,1543 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mc8051_p.vhd" in Library work.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/addsub_ovcy_.vhd" in Library work.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/addsub_cy_.vhd" in Library work.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/dcml_adjust_.vhd" in Library work.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/control_mem_.vhd" in Library work.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/control_fsm_.vhd" in Library work.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/comb_mltplr_.vhd" in Library work.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/comb_divider_.vhd" in Library work.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/alumux_.vhd" in Library work.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/alucore_.vhd" in Library work.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/addsub_core_.vhd" in Library work.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mc8051_tmrctr_.vhd" in Library work.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mc8051_siu_.vhd" in Library work.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mc8051_control_.vhd" in Library work.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mc8051_alu_.vhd" in Library work.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mc8051_core_.vhd" in Library work.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mc8051_core_struc.vhd" in Library work.
+Architecture struc of Entity mc8051_core is up to date.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mc8051_alu_struc.vhd" in Library work.
+Architecture struc of Entity mc8051_alu is up to date.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mc8051_control_struc.vhd" in Library work.
+Architecture struc of Entity mc8051_control is up to date.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mc8051_siu_rtl.vhd" in Library work.
+Architecture rtl of Entity mc8051_siu is up to date.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mc8051_tmrctr_rtl.vhd" in Library work.
+Architecture rtl of Entity mc8051_tmrctr is up to date.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/addsub_core_struc.vhd" in Library work.
+Architecture struc of Entity addsub_core is up to date.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/alucore_rtl.vhd" in Library work.
+Architecture rtl of Entity alucore is up to date.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/alumux_rtl.vhd" in Library work.
+Architecture rtl of Entity alumux is up to date.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/comb_divider_rtl.vhd" in Library work.
+Architecture rtl of Entity comb_divider is up to date.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/comb_mltplr_rtl.vhd" in Library work.
+Architecture rtl of Entity comb_mltplr is up to date.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/control_fsm_rtl.vhd" in Library work.
+Architecture rtl of Entity control_fsm is up to date.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/control_mem_rtl.vhd" in Library work.
+Architecture rtl of Entity control_mem is up to date.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/dcml_adjust_rtl.vhd" in Library work.
+Architecture rtl of Entity dcml_adjust is up to date.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/addsub_cy_rtl.vhd" in Library work.
+Architecture rtl of Entity addsub_cy is up to date.
+Compiling vhdl file "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/addsub_ovcy_rtl.vhd" in Library work.
+Architecture rtl of Entity addsub_ovcy is up to date.
+Compiling verilog file "wiz_clkgen.v" in library work
+Compiling verilog file "SPIMaster.v" in library work
+Module <wiz_clkgen> compiled
+Compiling verilog file "LUT_RAM_from_template02.v" in library work
+Module <SPIMaster> compiled
+Compiling verilog file "BRAM4kx8.v" in library work
+Module <LUT_RAM_from_template> compiled
+Compiling verilog file "top.vf" in library work
+Module <BRAM4kx8> compiled
+Module <top> compiled
+No errors in compilation
+Analysis of file <"top.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <top> in library <work>.
+
+Analyzing hierarchy for entity <mc8051_core> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for module <LUT_RAM_from_template> in library <work>.
+
+Analyzing hierarchy for module <BRAM4kx8> in library <work>.
+
+Analyzing hierarchy for module <wiz_clkgen> in library <work>.
+
+Analyzing hierarchy for module <SPIMaster> in library <work> with parameters.
+	CLK_DIV = "00000000000000000000000000000010"
+	IDLE = "00"
+	STATE_SIZE = "00000000000000000000000000000010"
+	TRANSFER = "10"
+	WAIT_HALF = "01"
+
+Analyzing hierarchy for entity <mc8051_control> in library <work> (architecture <struc>).
+
+Analyzing hierarchy for entity <mc8051_alu> in library <work> (architecture <struc>) with generics.
+	DWIDTH = 8
+
+Analyzing hierarchy for entity <mc8051_siu> in library <work> (architecture <rtl>).
+
+Analyzing hierarchy for entity <mc8051_tmrctr> in library <work> (architecture <rtl>).
+
+Analyzing hierarchy for entity <control_fsm> in library <work> (architecture <rtl>).
+
+Analyzing hierarchy for entity <control_mem> in library <work> (architecture <rtl>).
+
+Analyzing hierarchy for entity <alumux> in library <work> (architecture <rtl>) with generics.
+	DWIDTH = 8
+
+Analyzing hierarchy for entity <alucore> in library <work> (architecture <rtl>) with generics.
+	DWIDTH = 8
+
+Analyzing hierarchy for entity <addsub_core> in library <work> (architecture <struc>) with generics.
+	DWIDTH = 8
+
+Analyzing hierarchy for entity <comb_mltplr> in library <work> (architecture <rtl>) with generics.
+	DWIDTH = 8
+
+Analyzing hierarchy for entity <comb_divider> in library <work> (architecture <rtl>) with generics.
+	DWIDTH = 8
+
+Analyzing hierarchy for entity <dcml_adjust> in library <work> (architecture <rtl>) with generics.
+	DWIDTH = 8
+
+Analyzing hierarchy for entity <addsub_cy> in library <work> (architecture <rtl>) with generics.
+	DWIDTH = 4
+
+Analyzing hierarchy for entity <addsub_ovcy> in library <work> (architecture <rtl>) with generics.
+	DWIDTH = 4
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <top>.
+WARNING:Xst:852 - "top.vf" line 45: Unconnected input port 'all_rxd_i' of instance 'XLXI_1' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 45: Unconnected input port 'all_t0_i' of instance 'XLXI_1' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 45: Unconnected input port 'all_t1_i' of instance 'XLXI_1' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 45: Unconnected input port 'clk' of instance 'XLXI_1' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 45: Unconnected input port 'datax_i' of instance 'XLXI_1' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 45: Unconnected input port 'int0_i' of instance 'XLXI_1' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 45: Unconnected input port 'int1_i' of instance 'XLXI_1' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 45: Unconnected input port 'p2_i' of instance 'XLXI_1' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 45: Unconnected input port 'p3_i' of instance 'XLXI_1' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 77: Unconnected input port 'CLK' of instance 'XLXI_8' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 82: Unconnected input port 'clkin' of instance 'XLXI_11' is tied to GND.
+WARNING:Xst:852 - "top.vf" line 91: Unconnected input port 'miso' of instance 'XLXI_20' is tied to GND.
+Module <top> is correct for synthesis.
+ 
+Analyzing Entity <mc8051_core> in library <work> (Architecture <struc>).
+Entity <mc8051_core> analyzed. Unit <mc8051_core> generated.
+
+Analyzing Entity <mc8051_control> in library <work> (Architecture <struc>).
+Entity <mc8051_control> analyzed. Unit <mc8051_control> generated.
+
+Analyzing Entity <control_fsm> in library <work> (Architecture <rtl>).
+WARNING:Xst:819 - "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/control_fsm_rtl.vhd" line 303: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <PX0>, <EX0>, <PT0>, <ET0>, <PX1>, <EX1>, <PT1>, <ET1>, <PS0>, <ES>, <CY>
+Entity <control_fsm> analyzed. Unit <control_fsm> generated.
+
+Analyzing Entity <control_mem> in library <work> (Architecture <rtl>).
+WARNING:Xst:819 - "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/control_mem_rtl.vhd" line 556: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <EA>, <EX0>, <ET0>, <EX1>, <ET1>, <ES>, <PX0>, <PT0>, <PX1>, <PT1>, <PS0>
+INFO:Xst:1561 - "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/control_mem_rtl.vhd" line 662: Mux is complete : default of case is discarded
+Entity <control_mem> analyzed. Unit <control_mem> generated.
+
+Analyzing generic Entity <mc8051_alu> in library <work> (Architecture <struc>).
+	DWIDTH = 8
+Entity <mc8051_alu> analyzed. Unit <mc8051_alu> generated.
+
+Analyzing generic Entity <alumux> in library <work> (Architecture <rtl>).
+	DWIDTH = 8
+Entity <alumux> analyzed. Unit <alumux> generated.
+
+Analyzing generic Entity <alucore> in library <work> (Architecture <rtl>).
+	DWIDTH = 8
+Entity <alucore> analyzed. Unit <alucore> generated.
+
+Analyzing generic Entity <addsub_core> in library <work> (Architecture <struc>).
+	DWIDTH = 8
+Entity <addsub_core> analyzed. Unit <addsub_core> generated.
+
+Analyzing generic Entity <addsub_cy> in library <work> (Architecture <rtl>).
+	DWIDTH = 4
+Entity <addsub_cy> analyzed. Unit <addsub_cy> generated.
+
+Analyzing generic Entity <addsub_ovcy> in library <work> (Architecture <rtl>).
+	DWIDTH = 4
+Entity <addsub_ovcy> analyzed. Unit <addsub_ovcy> generated.
+
+Analyzing generic Entity <comb_mltplr> in library <work> (Architecture <rtl>).
+	DWIDTH = 8
+Entity <comb_mltplr> analyzed. Unit <comb_mltplr> generated.
+
+Analyzing generic Entity <comb_divider> in library <work> (Architecture <rtl>).
+	DWIDTH = 8
+Entity <comb_divider> analyzed. Unit <comb_divider> generated.
+
+Analyzing generic Entity <dcml_adjust> in library <work> (Architecture <rtl>).
+	DWIDTH = 8
+Entity <dcml_adjust> analyzed. Unit <dcml_adjust> generated.
+
+Analyzing Entity <mc8051_siu> in library <work> (Architecture <rtl>).
+Entity <mc8051_siu> analyzed. Unit <mc8051_siu> generated.
+
+Analyzing Entity <mc8051_tmrctr> in library <work> (Architecture <rtl>).
+Entity <mc8051_tmrctr> analyzed. Unit <mc8051_tmrctr> generated.
+
+Analyzing module <LUT_RAM_from_template> in library <work>.
+Module <LUT_RAM_from_template> is correct for synthesis.
+ 
+WARNING:Xst:38 - Value "{AUTO | DISTRIBUTED | PIPE_DISTRIBUTED}" of property "RAM_STYLE" not applicable.
+Analyzing module <BRAM4kx8> in library <work>.
+Module <BRAM4kx8> is correct for synthesis.
+ 
+    Set user-defined property "INIT =  000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INITP_00 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INITP_01 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INITP_02 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INITP_03 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INITP_04 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INITP_05 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INITP_06 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INITP_07 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_00 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_01 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_02 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_03 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_04 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_05 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_06 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_07 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_08 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_09 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_0A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_0B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_0C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_0D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_0E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_0F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_10 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_11 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_12 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_13 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_14 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_15 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_16 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_17 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_18 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_19 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_1A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_1B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_1C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_1D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_1E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_1F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_20 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_21 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_22 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_23 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_24 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_25 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_26 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_27 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_28 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_29 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_2A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_2B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_2C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_2D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_2E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_2F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_30 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_31 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_32 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_33 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_34 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_35 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_36 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_37 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_38 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_39 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_3A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_3B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_3C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_3D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_3E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_3F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "SRVAL =  000" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "WRITE_MODE =  WRITE_FIRST" for instance <ROM2k_00> in unit <BRAM4kx8>.
+    Set user-defined property "INIT =  000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INITP_00 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INITP_01 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INITP_02 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INITP_03 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INITP_04 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INITP_05 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INITP_06 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INITP_07 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_00 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_01 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_02 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_03 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_04 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_05 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_06 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_07 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_08 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_09 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_0A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_0B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_0C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_0D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_0E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_0F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_10 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_11 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_12 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_13 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_14 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_15 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_16 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_17 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_18 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_19 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_1A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_1B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_1C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_1D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_1E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_1F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_20 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_21 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_22 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_23 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_24 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_25 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_26 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_27 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_28 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_29 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_2A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_2B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_2C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_2D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_2E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_2F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_30 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_31 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_32 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_33 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_34 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_35 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_36 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_37 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_38 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_39 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_3A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_3B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_3C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_3D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_3E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "INIT_3F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "SRVAL =  000" for instance <ROM2k_01> in unit <BRAM4kx8>.
+    Set user-defined property "WRITE_MODE =  WRITE_FIRST" for instance <ROM2k_01> in unit <BRAM4kx8>.
+Analyzing module <wiz_clkgen> in library <work>.
+Module <wiz_clkgen> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <wiz_clkgen>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <wiz_clkgen>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <wiz_clkgen>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <wiz_clkgen>.
+    Set user-defined property "CLKDV_DIVIDE =  5.000000" for instance <DCM_SP_INST> in unit <wiz_clkgen>.
+    Set user-defined property "CLKFX_DIVIDE =  1" for instance <DCM_SP_INST> in unit <wiz_clkgen>.
+    Set user-defined property "CLKFX_MULTIPLY =  4" for instance <DCM_SP_INST> in unit <wiz_clkgen>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_SP_INST> in unit <wiz_clkgen>.
+    Set user-defined property "CLKIN_PERIOD =  20.000000" for instance <DCM_SP_INST> in unit <wiz_clkgen>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <wiz_clkgen>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_INST> in unit <wiz_clkgen>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <wiz_clkgen>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <wiz_clkgen>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <wiz_clkgen>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_INST> in unit <wiz_clkgen>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_INST> in unit <wiz_clkgen>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_INST> in unit <wiz_clkgen>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <wiz_clkgen>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <wiz_clkgen>.
+Analyzing module <SPIMaster> in library <work>.
+	CLK_DIV = 32'sb00000000000000000000000000000010
+	IDLE = 2'b00
+	STATE_SIZE = 32'sb00000000000000000000000000000010
+	TRANSFER = 2'b10
+	WAIT_HALF = 2'b01
+Module <SPIMaster> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <LUT_RAM_from_template>.
+    Related source file is "LUT_RAM_from_template02.v".
+WARNING:Xst:2109 - Contents of latch <DOUT> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<127>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<126>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<125>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<124>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<123>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<122>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<121>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<120>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<119>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<118>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<117>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<116>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<115>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<114>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<113>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<112>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<111>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<110>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<109>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<108>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<107>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<106>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<105>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<104>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<103>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<102>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<101>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<100>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<99>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<98>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<97>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<96>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<95>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<94>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<93>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<92>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<91>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<90>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<89>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<88>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<87>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<86>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<85>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<84>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<83>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<82>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<81>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<80>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<79>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<78>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<77>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<76>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<75>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<74>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<73>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<72>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<71>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<70>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<69>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<68>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<67>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<66>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<65>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<64>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<63>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<62>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<61>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<60>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<59>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<58>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<57>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<56>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<55>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<54>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<53>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<52>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<51>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<50>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<49>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<48>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<47>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<46>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<45>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<44>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<43>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<42>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<41>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<40>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<39>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<38>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<37>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<36>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<35>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<34>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<33>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<32>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<31>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<30>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<29>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<28>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<27>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<26>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<25>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<24>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<23>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<22>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<21>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<20>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<19>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<18>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<17>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<16>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<15>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<14>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<13>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<12>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<11>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<10>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<9>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<8>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<7>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<6>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<5>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<4>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<3>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<2>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<1>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+WARNING:Xst:2109 - Contents of latch <RAMDATA<0>> never changes during circuit operation. The latch is removed and the signal is tied to value 00000000.
+Unit <LUT_RAM_from_template> synthesized.
+
+
+Synthesizing Unit <SPIMaster>.
+    Related source file is "SPIMaster.v".
+    Found finite state machine <FSM_0> for signal <state_q>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 5                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 3-bit adder for signal <ctr_d$addsub0000> created at line 88.
+    Found 3-bit register for signal <ctr_q>.
+    Found 8-bit register for signal <data_out_q>.
+    Found 8-bit register for signal <data_q>.
+    Found 1-bit register for signal <mosi_q>.
+    Found 1-bit register for signal <new_data_q>.
+    Found 2-bit adder for signal <sck_d$share0000> created at line 65.
+    Found 2-bit register for signal <sck_q>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  23 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <SPIMaster> synthesized.
+
+
+Synthesizing Unit <mc8051_siu>.
+    Related source file is "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mc8051_siu_rtl.vhd".
+WARNING:Xst:646 - Signal <s_tran_sh<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Register <s_txdm0> equivalent to <rxd_o> has been removed
+    Register <s_det_ff0> equivalent to <rxdwr_o> has been removed
+    Register <s_det_ff1> equivalent to <rxdwr_o> has been removed
+    Register <s_ff0> equivalent to <rxdwr_o> has been removed
+    Register <s_ff1> equivalent to <rxdwr_o> has been removed
+    Register <s_rb8> equivalent to <rxdwr_o> has been removed
+    Register <s_recv_buf<0>> equivalent to <rxdwr_o> has been removed
+    Register <s_recv_buf<1>> equivalent to <rxdwr_o> has been removed
+    Register <s_recv_buf<2>> equivalent to <rxdwr_o> has been removed
+    Register <s_recv_buf<3>> equivalent to <rxdwr_o> has been removed
+    Register <s_recv_buf<4>> equivalent to <rxdwr_o> has been removed
+    Register <s_recv_buf<5>> equivalent to <rxdwr_o> has been removed
+    Register <s_recv_buf<6>> equivalent to <rxdwr_o> has been removed
+    Register <s_recv_buf<7>> equivalent to <rxdwr_o> has been removed
+    Register <s_recv_done> equivalent to <rxdwr_o> has been removed
+    Register <s_recv_sh<0>> equivalent to <rxdwr_o> has been removed
+    Register <s_recv_sh<1>> equivalent to <rxdwr_o> has been removed
+    Register <s_recv_sh<2>> equivalent to <rxdwr_o> has been removed
+    Register <s_recv_sh<3>> equivalent to <rxdwr_o> has been removed
+    Register <s_recv_sh<4>> equivalent to <rxdwr_o> has been removed
+    Register <s_recv_sh<5>> equivalent to <rxdwr_o> has been removed
+    Register <s_recv_sh<6>> equivalent to <rxdwr_o> has been removed
+    Register <s_recv_sh<7>> equivalent to <rxdwr_o> has been removed
+    Register <s_rxd_ff0> equivalent to <rxdwr_o> has been removed
+    Register <s_rxd_ff1> equivalent to <rxdwr_o> has been removed
+    Register <s_rxd_ff2> equivalent to <rxdwr_o> has been removed
+    Register <s_rxm13_ff0> equivalent to <rxdwr_o> has been removed
+    Register <s_rxm13_ff1> equivalent to <rxdwr_o> has been removed
+    Register <s_tran_done> equivalent to <rxdwr_o> has been removed
+    Register <s_tran_sh<10>> equivalent to <rxdwr_o> has been removed
+    Register <s_tran_sh<1>> equivalent to <rxdwr_o> has been removed
+    Register <s_tran_sh<2>> equivalent to <rxdwr_o> has been removed
+    Register <s_tran_sh<3>> equivalent to <rxdwr_o> has been removed
+    Register <s_tran_sh<4>> equivalent to <rxdwr_o> has been removed
+    Register <s_tran_sh<5>> equivalent to <rxdwr_o> has been removed
+    Register <s_tran_sh<6>> equivalent to <rxdwr_o> has been removed
+    Register <s_tran_sh<7>> equivalent to <rxdwr_o> has been removed
+    Register <s_tran_sh<8>> equivalent to <rxdwr_o> has been removed
+    Register <s_tran_sh<9>> equivalent to <rxdwr_o> has been removed
+    Register <s_trans> equivalent to <rxdwr_o> has been removed
+    Register <s_txm13_ff0> equivalent to <rxdwr_o> has been removed
+    Register <s_txm13_ff1> equivalent to <rxdwr_o> has been removed
+    Register <s_tran_state> equivalent to <s_recv_state> has been removed
+    Register <s_txpre_count> equivalent to <s_rxpre_count> has been removed
+WARNING:Xst:737 - Found 12-bit latch for signal <s_recv_state>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 6-bit latch for signal <s_rxpre_count>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <rxd_o>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <rxdwr_o>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <s_recv_state> of Case statement line 995 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <s_recv_state> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <s_recv_state> of Case statement line 1093 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <s_recv_state> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Using one-hot encoding for signal <s_recv_state>.
+    Using one-hot encoding for signal <s_tran_state>.
+    Found 3-bit 4-to-1 multiplexer for signal <v_rxstep$mux0005> created at line 830.
+    Found 3-bit 4-to-1 multiplexer for signal <v_txstep$mux0005> created at line 422.
+    Summary:
+	inferred   6 Multiplexer(s).
+Unit <mc8051_siu> synthesized.
+
+
+Synthesizing Unit <mc8051_tmrctr>.
+    Related source file is "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mc8051_tmrctr_rtl.vhd".
+    Register <s_counth1> equivalent to <s_counth0> has been removed
+    Register <s_countl0> equivalent to <s_counth0> has been removed
+    Register <s_countl1> equivalent to <s_counth0> has been removed
+    Register <s_int0_sync<1>> equivalent to <s_int0_sync<0>> has been removed
+    Register <s_int1_sync<0>> equivalent to <s_int0_sync<0>> has been removed
+    Register <s_int1_sync<1>> equivalent to <s_int0_sync<0>> has been removed
+    Register <s_t0ff0> equivalent to <s_int0_sync<0>> has been removed
+    Register <s_t0ff1> equivalent to <s_int0_sync<0>> has been removed
+    Register <s_t0ff2> equivalent to <s_int0_sync<0>> has been removed
+    Register <s_t1ff0> equivalent to <s_int0_sync<0>> has been removed
+    Register <s_t1ff1> equivalent to <s_int0_sync<0>> has been removed
+    Register <s_t1ff2> equivalent to <s_int0_sync<0>> has been removed
+    Register <s_tf0> equivalent to <s_int0_sync<0>> has been removed
+    Register <s_tf1> equivalent to <s_int0_sync<0>> has been removed
+WARNING:Xst:737 - Found 1-bit latch for signal <s_int0_sync_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <s_counth0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 2-bit latch for signal <s_pre_count>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Using one-hot encoding for signal <s_pre_count>.
+    Found 8-bit adder for signal <s_countl0$add0000> created at line 281.
+    Found 8-bit adder for signal <s_countl1$add0000> created at line 567.
+    Found 1-bit 4-to-1 multiplexer for signal <s_tf1$mux0003> created at line 248.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   1 Multiplexer(s).
+Unit <mc8051_tmrctr> synthesized.
+
+
+Synthesizing Unit <control_fsm>.
+    Related source file is "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/control_fsm_rtl.vhd".
+WARNING:Xst:647 - Input <ie<7:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ip<7:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <psw<6:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Using one-hot encoding for signal <s_instr_category>.
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <s_instr_category> of Case statement line 437 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <s_instr_category> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+Unit <control_fsm> synthesized.
+
+
+Synthesizing Unit <control_mem>.
+    Related source file is "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/control_mem_rtl.vhd".
+WARNING:Xst:646 - Signal <scon<0><2>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <s_tsel<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <s_ssel<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Register <acc<1>> equivalent to <acc<0>> has been removed
+    Register <acc<2>> equivalent to <acc<0>> has been removed
+    Register <acc<3>> equivalent to <acc<0>> has been removed
+    Register <acc<4>> equivalent to <acc<0>> has been removed
+    Register <acc<5>> equivalent to <acc<0>> has been removed
+    Register <acc<6>> equivalent to <acc<0>> has been removed
+    Register <acc<7>> equivalent to <acc<0>> has been removed
+    Register <all_trans_o<0>> equivalent to <acc<0>> has been removed
+    Register <all_wt_en_o<0>> equivalent to <acc<0>> has been removed
+    Register <b<0>> equivalent to <acc<0>> has been removed
+    Register <b<1>> equivalent to <acc<0>> has been removed
+    Register <b<2>> equivalent to <acc<0>> has been removed
+    Register <b<3>> equivalent to <acc<0>> has been removed
+    Register <b<4>> equivalent to <acc<0>> has been removed
+    Register <b<5>> equivalent to <acc<0>> has been removed
+    Register <b<6>> equivalent to <acc<0>> has been removed
+    Register <b<7>> equivalent to <acc<0>> has been removed
+    Register <gprbit<0><0>> equivalent to <acc<0>> has been removed
+    Register <gprbit<0><1>> equivalent to <acc<0>> has been removed
+    Register <gprbit<0><2>> equivalent to <acc<0>> has been removed
+    Register <gprbit<0><3>> equivalent to <acc<0>> has been removed
+    Register <gprbit<0><4>> equivalent to <acc<0>> has been removed
+    Register <gprbit<0><5>> equivalent to <acc<0>> has been removed
+    Register <gprbit<0><6>> equivalent to <acc<0>> has been removed
+    Register <gprbit<0><7>> equivalent to <acc<0>> has been removed
+    Register <gprbit<10><0>> equivalent to <acc<0>> has been removed
+    Register <gprbit<10><1>> equivalent to <acc<0>> has been removed
+    Register <gprbit<10><2>> equivalent to <acc<0>> has been removed
+    Register <gprbit<10><3>> equivalent to <acc<0>> has been removed
+    Register <gprbit<10><4>> equivalent to <acc<0>> has been removed
+    Register <gprbit<10><5>> equivalent to <acc<0>> has been removed
+    Register <gprbit<10><6>> equivalent to <acc<0>> has been removed
+    Register <gprbit<10><7>> equivalent to <acc<0>> has been removed
+    Register <gprbit<11><0>> equivalent to <acc<0>> has been removed
+    Register <gprbit<11><1>> equivalent to <acc<0>> has been removed
+    Register <gprbit<11><2>> equivalent to <acc<0>> has been removed
+    Register <gprbit<11><3>> equivalent to <acc<0>> has been removed
+    Register <gprbit<11><4>> equivalent to <acc<0>> has been removed
+    Register <gprbit<11><5>> equivalent to <acc<0>> has been removed
+    Register <gprbit<11><6>> equivalent to <acc<0>> has been removed
+    Register <gprbit<11><7>> equivalent to <acc<0>> has been removed
+    Register <gprbit<12><0>> equivalent to <acc<0>> has been removed
+    Register <gprbit<12><1>> equivalent to <acc<0>> has been removed
+    Register <gprbit<12><2>> equivalent to <acc<0>> has been removed
+    Register <gprbit<12><3>> equivalent to <acc<0>> has been removed
+    Register <gprbit<12><4>> equivalent to <acc<0>> has been removed
+    Register <gprbit<12><5>> equivalent to <acc<0>> has been removed
+    Register <gprbit<12><6>> equivalent to <acc<0>> has been removed
+    Register <gprbit<12><7>> equivalent to <acc<0>> has been removed
+    Register <gprbit<13><0>> equivalent to <acc<0>> has been removed
+    Register <gprbit<13><1>> equivalent to <acc<0>> has been removed
+    Register <gprbit<13><2>> equivalent to <acc<0>> has been removed
+    Register <gprbit<13><3>> equivalent to <acc<0>> has been removed
+    Register <gprbit<13><4>> equivalent to <acc<0>> has been removed
+    Register <gprbit<13><5>> equivalent to <acc<0>> has been removed
+    Register <gprbit<13><6>> equivalent to <acc<0>> has been removed
+    Register <gprbit<13><7>> equivalent to <acc<0>> has been removed
+    Register <gprbit<14><0>> equivalent to <acc<0>> has been removed
+    Register <gprbit<14><1>> equivalent to <acc<0>> has been removed
+    Register <gprbit<14><2>> equivalent to <acc<0>> has been removed
+    Register <gprbit<14><3>> equivalent to <acc<0>> has been removed
+    Register <gprbit<14><4>> equivalent to <acc<0>> has been removed
+    Register <gprbit<14><5>> equivalent to <acc<0>> has been removed
+    Register <gprbit<14><6>> equivalent to <acc<0>> has been removed
+    Register <gprbit<14><7>> equivalent to <acc<0>> has been removed
+    Register <gprbit<15><0>> equivalent to <acc<0>> has been removed
+    Register <gprbit<15><1>> equivalent to <acc<0>> has been removed
+    Register <gprbit<15><2>> equivalent to <acc<0>> has been removed
+    Register <gprbit<15><3>> equivalent to <acc<0>> has been removed
+    Register <gprbit<15><4>> equivalent to <acc<0>> has been removed
+    Register <gprbit<15><5>> equivalent to <acc<0>> has been removed
+    Register <gprbit<15><6>> equivalent to <acc<0>> has been removed
+    Register <gprbit<15><7>> equivalent to <acc<0>> has been removed
+    Register <gprbit<1><0>> equivalent to <acc<0>> has been removed
+    Register <gprbit<1><1>> equivalent to <acc<0>> has been removed
+    Register <gprbit<1><2>> equivalent to <acc<0>> has been removed
+    Register <gprbit<1><3>> equivalent to <acc<0>> has been removed
+    Register <gprbit<1><4>> equivalent to <acc<0>> has been removed
+    Register <gprbit<1><5>> equivalent to <acc<0>> has been removed
+    Register <gprbit<1><6>> equivalent to <acc<0>> has been removed
+    Register <gprbit<1><7>> equivalent to <acc<0>> has been removed
+    Register <gprbit<2><0>> equivalent to <acc<0>> has been removed
+    Register <gprbit<2><1>> equivalent to <acc<0>> has been removed
+    Register <gprbit<2><2>> equivalent to <acc<0>> has been removed
+    Register <gprbit<2><3>> equivalent to <acc<0>> has been removed
+    Register <gprbit<2><4>> equivalent to <acc<0>> has been removed
+    Register <gprbit<2><5>> equivalent to <acc<0>> has been removed
+    Register <gprbit<2><6>> equivalent to <acc<0>> has been removed
+    Register <gprbit<2><7>> equivalent to <acc<0>> has been removed
+    Register <gprbit<3><0>> equivalent to <acc<0>> has been removed
+    Register <gprbit<3><1>> equivalent to <acc<0>> has been removed
+    Register <gprbit<3><2>> equivalent to <acc<0>> has been removed
+    Register <gprbit<3><3>> equivalent to <acc<0>> has been removed
+    Register <gprbit<3><4>> equivalent to <acc<0>> has been removed
+    Register <gprbit<3><5>> equivalent to <acc<0>> has been removed
+    Register <gprbit<3><6>> equivalent to <acc<0>> has been removed
+    Register <gprbit<3><7>> equivalent to <acc<0>> has been removed
+    Register <gprbit<4><0>> equivalent to <acc<0>> has been removed
+    Register <gprbit<4><1>> equivalent to <acc<0>> has been removed
+    Register <gprbit<4><2>> equivalent to <acc<0>> has been removed
+    Register <gprbit<4><3>> equivalent to <acc<0>> has been removed
+    Register <gprbit<4><4>> equivalent to <acc<0>> has been removed
+    Register <gprbit<4><5>> equivalent to <acc<0>> has been removed
+    Register <gprbit<4><6>> equivalent to <acc<0>> has been removed
+    Register <gprbit<4><7>> equivalent to <acc<0>> has been removed
+    Register <gprbit<5><0>> equivalent to <acc<0>> has been removed
+    Register <gprbit<5><1>> equivalent to <acc<0>> has been removed
+    Register <gprbit<5><2>> equivalent to <acc<0>> has been removed
+    Register <gprbit<5><3>> equivalent to <acc<0>> has been removed
+    Register <gprbit<5><4>> equivalent to <acc<0>> has been removed
+    Register <gprbit<5><5>> equivalent to <acc<0>> has been removed
+    Register <gprbit<5><6>> equivalent to <acc<0>> has been removed
+    Register <gprbit<5><7>> equivalent to <acc<0>> has been removed
+    Register <gprbit<6><0>> equivalent to <acc<0>> has been removed
+    Register <gprbit<6><1>> equivalent to <acc<0>> has been removed
+    Register <gprbit<6><2>> equivalent to <acc<0>> has been removed
+    Register <gprbit<6><3>> equivalent to <acc<0>> has been removed
+    Register <gprbit<6><4>> equivalent to <acc<0>> has been removed
+    Register <gprbit<6><5>> equivalent to <acc<0>> has been removed
+    Register <gprbit<6><6>> equivalent to <acc<0>> has been removed
+    Register <gprbit<6><7>> equivalent to <acc<0>> has been removed
+    Register <gprbit<7><0>> equivalent to <acc<0>> has been removed
+    Register <gprbit<7><1>> equivalent to <acc<0>> has been removed
+    Register <gprbit<7><2>> equivalent to <acc<0>> has been removed
+    Register <gprbit<7><3>> equivalent to <acc<0>> has been removed
+    Register <gprbit<7><4>> equivalent to <acc<0>> has been removed
+    Register <gprbit<7><5>> equivalent to <acc<0>> has been removed
+    Register <gprbit<7><6>> equivalent to <acc<0>> has been removed
+    Register <gprbit<7><7>> equivalent to <acc<0>> has been removed
+    Register <gprbit<8><0>> equivalent to <acc<0>> has been removed
+    Register <gprbit<8><1>> equivalent to <acc<0>> has been removed
+    Register <gprbit<8><2>> equivalent to <acc<0>> has been removed
+    Register <gprbit<8><3>> equivalent to <acc<0>> has been removed
+    Register <gprbit<8><4>> equivalent to <acc<0>> has been removed
+    Register <gprbit<8><5>> equivalent to <acc<0>> has been removed
+    Register <gprbit<8><6>> equivalent to <acc<0>> has been removed
+    Register <gprbit<8><7>> equivalent to <acc<0>> has been removed
+    Register <gprbit<9><0>> equivalent to <acc<0>> has been removed
+    Register <gprbit<9><1>> equivalent to <acc<0>> has been removed
+    Register <gprbit<9><2>> equivalent to <acc<0>> has been removed
+    Register <gprbit<9><3>> equivalent to <acc<0>> has been removed
+    Register <gprbit<9><4>> equivalent to <acc<0>> has been removed
+    Register <gprbit<9><5>> equivalent to <acc<0>> has been removed
+    Register <gprbit<9><6>> equivalent to <acc<0>> has been removed
+    Register <gprbit<9><7>> equivalent to <acc<0>> has been removed
+    Register <ie<0>> equivalent to <acc<0>> has been removed
+    Register <ie<1>> equivalent to <acc<0>> has been removed
+    Register <ie<2>> equivalent to <acc<0>> has been removed
+    Register <ie<3>> equivalent to <acc<0>> has been removed
+    Register <ie<4>> equivalent to <acc<0>> has been removed
+    Register <ie<5>> equivalent to <acc<0>> has been removed
+    Register <ie<6>> equivalent to <acc<0>> has been removed
+    Register <ie<7>> equivalent to <acc<0>> has been removed
+    Register <intblock_o> equivalent to <acc<0>> has been removed
+    Register <ip<0>> equivalent to <acc<0>> has been removed
+    Register <ip<1>> equivalent to <acc<0>> has been removed
+    Register <ip<2>> equivalent to <acc<0>> has been removed
+    Register <ip<3>> equivalent to <acc<0>> has been removed
+    Register <ip<4>> equivalent to <acc<0>> has been removed
+    Register <ip<5>> equivalent to <acc<0>> has been removed
+    Register <ip<6>> equivalent to <acc<0>> has been removed
+    Register <ip<7>> equivalent to <acc<0>> has been removed
+    Register <psw<0>> equivalent to <acc<0>> has been removed
+    Register <psw<1>> equivalent to <acc<0>> has been removed
+    Register <psw<2>> equivalent to <acc<0>> has been removed
+    Register <psw<3>> equivalent to <acc<0>> has been removed
+    Register <psw<4>> equivalent to <acc<0>> has been removed
+    Register <psw<5>> equivalent to <acc<0>> has been removed
+    Register <psw<6>> equivalent to <acc<0>> has been removed
+    Register <psw<7>> equivalent to <acc<0>> has been removed
+    Register <s_ext0isr_d> equivalent to <acc<0>> has been removed
+    Register <s_ext0isrh_d> equivalent to <acc<0>> has been removed
+    Register <s_ext1isr_d> equivalent to <acc<0>> has been removed
+    Register <s_ext1isrh_d> equivalent to <acc<0>> has been removed
+    Register <s_helpb> equivalent to <acc<0>> has been removed
+    Register <s_inthigh> equivalent to <acc<0>> has been removed
+    Register <s_intlow> equivalent to <acc<0>> has been removed
+    Register <s_intpre2> equivalent to <acc<0>> has been removed
+    Register <s_ri_h1<0>> equivalent to <acc<0>> has been removed
+    Register <s_ri_h2<0>> equivalent to <acc<0>> has been removed
+    Register <s_smodreg<0>> equivalent to <acc<0>> has been removed
+    Register <s_tf0_h1<0>> equivalent to <acc<0>> has been removed
+    Register <s_tf0_h2<0>> equivalent to <acc<0>> has been removed
+    Register <s_tf1_h1<0>> equivalent to <acc<0>> has been removed
+    Register <s_tf1_h2<0>> equivalent to <acc<0>> has been removed
+    Register <s_ti_h1<0>> equivalent to <acc<0>> has been removed
+    Register <s_ti_h2<0>> equivalent to <acc<0>> has been removed
+    Register <scon<0><0>> equivalent to <acc<0>> has been removed
+    Register <scon<0><1>> equivalent to <acc<0>> has been removed
+    Register <scon<0><3>> equivalent to <acc<0>> has been removed
+    Register <scon<0><4>> equivalent to <acc<0>> has been removed
+    Register <scon<0><5>> equivalent to <acc<0>> has been removed
+    Register <scon<0><6>> equivalent to <acc<0>> has been removed
+    Register <scon<0><7>> equivalent to <acc<0>> has been removed
+    Register <tcon<0><0>> equivalent to <acc<0>> has been removed
+    Register <tcon<0><1>> equivalent to <acc<0>> has been removed
+    Register <tcon<0><2>> equivalent to <acc<0>> has been removed
+    Register <tcon<0><3>> equivalent to <acc<0>> has been removed
+    Register <tcon<0><4>> equivalent to <acc<0>> has been removed
+    Register <tcon<0><5>> equivalent to <acc<0>> has been removed
+    Register <tcon<0><6>> equivalent to <acc<0>> has been removed
+    Register <tcon<0><7>> equivalent to <acc<0>> has been removed
+    Register <dpl> equivalent to <dph> has been removed
+    Register <s_help> equivalent to <dph> has been removed
+    Register <s_ir> equivalent to <dph> has been removed
+    Register <s_preadr> equivalent to <dph> has been removed
+    Register <s_r0_b0> equivalent to <dph> has been removed
+    Register <s_r0_b1> equivalent to <dph> has been removed
+    Register <s_r0_b2> equivalent to <dph> has been removed
+    Register <s_r0_b3> equivalent to <dph> has been removed
+    Register <s_r1_b0> equivalent to <dph> has been removed
+    Register <s_r1_b1> equivalent to <dph> has been removed
+    Register <s_r1_b2> equivalent to <dph> has been removed
+    Register <s_r1_b3> equivalent to <dph> has been removed
+    Register <s_reload<0>> equivalent to <dph> has been removed
+    Register <sbuf<0>> equivalent to <dph> has been removed
+    Register <ssel> equivalent to <dph> has been removed
+    Register <tmod<0>> equivalent to <dph> has been removed
+    Register <tsel> equivalent to <dph> has been removed
+    Register <p0<1>> equivalent to <p0<0>> has been removed
+    Register <p0<2>> equivalent to <p0<0>> has been removed
+    Register <p0<3>> equivalent to <p0<0>> has been removed
+    Register <p0<4>> equivalent to <p0<0>> has been removed
+    Register <p0<5>> equivalent to <p0<0>> has been removed
+    Register <p0<6>> equivalent to <p0<0>> has been removed
+    Register <p0<7>> equivalent to <p0<0>> has been removed
+    Register <p1<0>> equivalent to <p0<0>> has been removed
+    Register <p1<1>> equivalent to <p0<0>> has been removed
+    Register <p1<2>> equivalent to <p0<0>> has been removed
+    Register <p1<3>> equivalent to <p0<0>> has been removed
+    Register <p1<4>> equivalent to <p0<0>> has been removed
+    Register <p1<5>> equivalent to <p0<0>> has been removed
+    Register <p1<6>> equivalent to <p0<0>> has been removed
+    Register <p1<7>> equivalent to <p0<0>> has been removed
+    Register <p2<0>> equivalent to <p0<0>> has been removed
+    Register <p2<1>> equivalent to <p0<0>> has been removed
+    Register <p2<2>> equivalent to <p0<0>> has been removed
+    Register <p2<3>> equivalent to <p0<0>> has been removed
+    Register <p2<4>> equivalent to <p0<0>> has been removed
+    Register <p2<5>> equivalent to <p0<0>> has been removed
+    Register <p2<6>> equivalent to <p0<0>> has been removed
+    Register <p2<7>> equivalent to <p0<0>> has been removed
+    Register <p3<0>> equivalent to <p0<0>> has been removed
+    Register <p3<1>> equivalent to <p0<0>> has been removed
+    Register <p3<2>> equivalent to <p0<0>> has been removed
+    Register <p3<3>> equivalent to <p0<0>> has been removed
+    Register <p3<4>> equivalent to <p0<0>> has been removed
+    Register <p3<5>> equivalent to <p0<0>> has been removed
+    Register <p3<6>> equivalent to <p0<0>> has been removed
+    Register <p3<7>> equivalent to <p0<0>> has been removed
+    Register <s_int0_h1<0>> equivalent to <p0<0>> has been removed
+    Register <s_int0_h2<0>> equivalent to <p0<0>> has been removed
+    Register <s_int0_h3<0>> equivalent to <p0<0>> has been removed
+    Register <s_int1_h1<0>> equivalent to <p0<0>> has been removed
+    Register <s_int1_h2<0>> equivalent to <p0<0>> has been removed
+    Register <s_int1_h3<0>> equivalent to <p0<0>> has been removed
+    Register <s_help16> equivalent to <pc> has been removed
+    Register <s_p1> equivalent to <s_p0> has been removed
+    Register <s_p2> equivalent to <s_p0> has been removed
+    Register <s_p3> equivalent to <s_p0> has been removed
+WARNING:Xst:737 - Found 1-bit latch for signal <acc_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <dph>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <p0_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 4-bit latch for signal <pcon>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 3-bit latch for signal <state>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <s_p0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 2-bit latch for signal <s_wt_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 16-bit latch for signal <pc>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <sp>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 8-bit 4-to-1 multiplexer for signal <adrx_o<7:0>>.
+    Found 16-bit adder for signal <pc_comb$add0000> created at line 841.
+    Found 16-bit adder for signal <pc_comb$add0001> created at line 851.
+    Found 16-bit adder for signal <pc_comb_15$add0000> created at line 832.
+    Found 16-bit adder for signal <pc_plus1>.
+    Found 16-bit adder for signal <pc_plus2>.
+    Found 8-bit 16-to-1 multiplexer for signal <s_adr>.
+    Found 8-bit adder for signal <s_adr$addsub0000> created at line 662.
+    Found 8-bit 16-to-1 multiplexer for signal <s_bit_data$varindex0000> created at line 456.
+    Found 1-bit xor8 for signal <s_p>.
+    Found 8-bit 16-to-1 multiplexer for signal <s_reg_data$varindex0000> created at line 411.
+    Summary:
+	inferred   6 Adder/Subtractor(s).
+	inferred  32 Multiplexer(s).
+	inferred   1 Xor(s).
+Unit <control_mem> synthesized.
+
+
+Synthesizing Unit <alumux>.
+    Related source file is "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/alumux_rtl.vhd".
+    Found 32x4-bit ROM for signal <alu_cmd_o$mux0000>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <alumux> synthesized.
+
+
+Synthesizing Unit <alucore>.
+    Related source file is "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/alucore_rtl.vhd".
+    Found 8-bit comparator less for signal <cy_o_1$cmp_lt0000> created at line 142.
+    Found 8-bit comparator equal for signal <result_o_0$cmp_eq0008> created at line 136.
+    Found 1-bit xor2 for signal <result_o_0$xor0000> created at line 94.
+    Found 1-bit xor2 for signal <result_o_1$xor0000> created at line 94.
+    Found 1-bit xor2 for signal <result_o_2$xor0000> created at line 94.
+    Found 1-bit xor2 for signal <result_o_3$xor0000> created at line 94.
+    Found 1-bit xor2 for signal <result_o_4$xor0000> created at line 94.
+    Found 1-bit xor2 for signal <result_o_5$xor0000> created at line 94.
+    Found 1-bit xor2 for signal <result_o_6$xor0000> created at line 94.
+    Found 1-bit xor2 for signal <result_o_7$xor0000> created at line 94.
+    Summary:
+	inferred   2 Comparator(s).
+Unit <alucore> synthesized.
+
+
+Synthesizing Unit <comb_mltplr>.
+    Related source file is "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/comb_mltplr_rtl.vhd".
+    Found 8x8-bit multiplier for signal <product_o>.
+    Summary:
+	inferred   1 Multiplier(s).
+Unit <comb_mltplr> synthesized.
+
+
+Synthesizing Unit <comb_divider>.
+    Related source file is "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/comb_divider_rtl.vhd".
+    Found 8-bit subtractor for signal <rmndr_o$addsub0000> created at line 92.
+    Found 8-bit comparator greatequal for signal <v_actl_dvdnd_7$cmp_ge0000> created at line 88.
+    Found 8-bit comparator greatequal for signal <v_actl_dvdnd_7$cmp_ge0001> created at line 88.
+    Found 8-bit comparator greatequal for signal <v_actl_dvdnd_7$cmp_ge0002> created at line 88.
+    Found 8-bit comparator greatequal for signal <v_actl_dvdnd_7$cmp_ge0003> created at line 88.
+    Found 8-bit subtractor for signal <v_dffrnc$sub0000> created at line 92.
+    Found 8-bit subtractor for signal <v_dffrnc$sub0001> created at line 92.
+    Found 8-bit subtractor for signal <v_dffrnc$sub0002> created at line 92.
+    Found 8-bit subtractor for signal <v_dffrnc$sub0003> created at line 92.
+    Found 8-bit subtractor for signal <v_dffrnc$sub0004> created at line 92.
+    Found 8-bit subtractor for signal <v_dffrnc$sub0005> created at line 92.
+    Found 8-bit subtractor for signal <v_dffrnc$sub0006> created at line 92.
+    Found 8-bit comparator greatequal for signal <v_qutnt_0$cmp_ge0000> created at line 88.
+    Found 8-bit comparator greatequal for signal <v_qutnt_5$cmp_ge0000> created at line 88.
+    Found 8-bit comparator greatequal for signal <v_qutnt_6$cmp_ge0000> created at line 88.
+    Found 8-bit comparator greatequal for signal <v_qutnt_7$cmp_ge0000> created at line 88.
+    Summary:
+	inferred   8 Adder/Subtractor(s).
+	inferred   8 Comparator(s).
+Unit <comb_divider> synthesized.
+
+
+Synthesizing Unit <dcml_adjust>.
+    Related source file is "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/dcml_adjust_rtl.vhd".
+    Found 4-bit comparator greater for signal <v_cy_1$cmp_gt0000> created at line 103.
+    Found 5-bit adder for signal <v_tmpda1$add0000> created at line 109.
+    Found 4-bit comparator greater for signal <v_tmpda_8$cmp_gt0000> created at line 88.
+    Found 5-bit adder for signal <v_tmpda_8_4$add0000> created at line 127.
+    Found 5-bit adder for signal <v_tmpda_8_4$add0001> created at line 90.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+Unit <dcml_adjust> synthesized.
+
+
+Synthesizing Unit <addsub_cy>.
+    Related source file is "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/addsub_cy_rtl.vhd".
+    Found 6-bit addsub for signal <v_result$mux0000> created at line 81.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <addsub_cy> synthesized.
+
+
+Synthesizing Unit <addsub_ovcy>.
+    Related source file is "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/addsub_ovcy_rtl.vhd".
+    Found 3-bit addsub for signal <v_lresult$mux0000> created at line 115.
+    Found 5-bit adder for signal <v_result$add0000> created at line 118.
+    Found 5-bit subtractor for signal <v_result$sub0000> created at line 125.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+Unit <addsub_ovcy> synthesized.
+
+
+Synthesizing Unit <BRAM4kx8>.
+    Related source file is "BRAM4kx8.v".
+WARNING:Xst:646 - Signal <DOP_01> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <DOP_00> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:2109 - Contents of latch <select> never changes during circuit operation. The latch is removed and the signal is tied to value 0.
+Unit <BRAM4kx8> synthesized.
+
+
+Synthesizing Unit <wiz_clkgen>.
+    Related source file is "wiz_clkgen.v".
+Unit <wiz_clkgen> synthesized.
+
+
+Synthesizing Unit <mc8051_control>.
+    Related source file is "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mc8051_control_struc.vhd".
+Unit <mc8051_control> synthesized.
+
+
+Synthesizing Unit <addsub_core>.
+    Related source file is "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/addsub_core_struc.vhd".
+WARNING:Xst:1780 - Signal <s_cy<3><0>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <addsub_core> synthesized.
+
+
+Synthesizing Unit <mc8051_alu>.
+    Related source file is "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mc8051_alu_struc.vhd".
+Unit <mc8051_alu> synthesized.
+
+
+Synthesizing Unit <mc8051_core>.
+    Related source file is "//afs/glue.umd.edu/home/glue/l/i/librajrd/home/ENEE405/405lab3_2/405lab3/8051Cylon_Ncount/8051Cylon_10000count/8051_logic/mc8051_core_struc.vhd".
+WARNING:Xst:1780 - Signal <s_reset> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <s_clk> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <mc8051_core> synthesized.
+
+
+Synthesizing Unit <top>.
+    Related source file is "top.vf".
+WARNING:Xst:646 - Signal <ROMaddr<15:12>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <top> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 32x4-bit ROM                                          : 1
+# Multipliers                                          : 1
+ 8x8-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 23
+ 16-bit adder                                          : 5
+ 2-bit adder                                           : 1
+ 3-bit adder                                           : 1
+ 3-bit addsub                                          : 1
+ 5-bit adder                                           : 4
+ 5-bit subtractor                                      : 1
+ 6-bit addsub                                          : 1
+ 8-bit adder                                           : 1
+ 8-bit subtractor                                      : 8
+# Registers                                            : 5
+ 1-bit register                                        : 2
+ 2-bit register                                        : 1
+ 3-bit register                                        : 1
+ 8-bit register                                        : 1
+# Latches                                              : 16
+ 1-bit latch                                           : 5
+ 12-bit latch                                          : 1
+ 16-bit latch                                          : 1
+ 2-bit latch                                           : 2
+ 3-bit latch                                           : 1
+ 4-bit latch                                           : 1
+ 6-bit latch                                           : 1
+ 8-bit latch                                           : 4
+# Comparators                                          : 12
+ 4-bit comparator greater                              : 2
+ 8-bit comparator equal                                : 1
+ 8-bit comparator greatequal                           : 8
+ 8-bit comparator less                                 : 1
+# Multiplexers                                         : 11
+ 1-bit 4-to-1 multiplexer                              : 8
+ 8-bit 16-to-1 multiplexer                             : 3
+# Xors                                                 : 8
+ 1-bit xor2                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <XLXI_20/state_q/FSM> on signal <state_q[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+-------------------
+WARNING:Xst:1290 - Hierarchical block <XLXI_20> is unconnected in block <top>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <XLXI_8> is unconnected in block <top>.
+   It will be removed from the design.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <4>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <6>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <7>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <9>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <10>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <11>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <12>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <14>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <15>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 1 in block <0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 1 in block <1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 1 in block <2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <4>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <6>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <7>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <rxdwr_o>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <4>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <6>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <7>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <acc_0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <4>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <6>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <7>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 1 in block <p0_0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <0> has a constant value of 0 in block <0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <0> has a constant value of 0 in block <1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <0> has a constant value of 0 in block <2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 1 in block <0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 1 in block <1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 1 in block <2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 1 in block <3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 1 in block <4>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 1 in block <5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 1 in block <6>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 1 in block <7>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1290 - Hierarchical block <i_mc8051_alu> is unconnected in block <XLXI_1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gen_mc8051_siu[0].i_mc8051_siu> is unconnected in block <XLXI_1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <gen_mc8051_tmrctr[0].i_mc8051_tmrctr> is unconnected in block <XLXI_1>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 1
+ 32x4-bit ROM                                          : 1
+# Multipliers                                          : 1
+ 8x8-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 23
+ 1-bit subtractor                                      : 1
+ 16-bit adder                                          : 4
+ 2-bit adder                                           : 1
+ 2-bit subtractor                                      : 1
+ 3-bit adder                                           : 1
+ 3-bit addsub                                          : 1
+ 3-bit subtractor                                      : 1
+ 4-bit subtractor                                      : 1
+ 5-bit adder                                           : 4
+ 5-bit subtractor                                      : 2
+ 6-bit addsub                                          : 1
+ 6-bit subtractor                                      : 1
+ 7-bit subtractor                                      : 1
+ 8-bit adder                                           : 2
+ 8-bit subtractor                                      : 1
+# Registers                                            : 15
+ Flip-Flops                                            : 15
+# Latches                                              : 16
+ 1-bit latch                                           : 5
+ 12-bit latch                                          : 1
+ 16-bit latch                                          : 1
+ 2-bit latch                                           : 2
+ 3-bit latch                                           : 1
+ 4-bit latch                                           : 1
+ 6-bit latch                                           : 1
+ 8-bit latch                                           : 4
+# Comparators                                          : 12
+ 4-bit comparator greater                              : 2
+ 8-bit comparator equal                                : 1
+ 8-bit comparator greatequal                           : 8
+ 8-bit comparator less                                 : 1
+# Multiplexers                                         : 11
+ 1-bit 4-to-1 multiplexer                              : 8
+ 8-bit 16-to-1 multiplexer                             : 3
+# Xors                                                 : 8
+ 1-bit xor2                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_pre_count_0> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <XLXI_1/gen_mc8051_siu[0].i_mc8051_siu/rxd_o> 
+INFO:Xst:2261 - The FF/Latch <XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_int0_sync_0> in Unit <top> is equivalent to the following 16 FFs/Latches, which will be removed : <XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_pre_count_1> <XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_counth0_0> <XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_counth0_1> <XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_counth0_2> <XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_counth0_3> <XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_counth0_4> <XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_counth0_5> <XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_counth0_6> <XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_counth0_7> <XLXI_1/gen_mc8051_siu[0].i_mc8051_siu/rxdwr_o> <XLXI_1/gen_mc8051_siu[0].i_mc8051_siu/s_rxpre_count_0> <XLXI_1/gen_mc8051_siu[0].i_mc8051_siu/s_rxpre_count_1> <XLXI_1/gen_mc8051_siu[0].i_mc8051_siu/s_rxpre_count_2> <XLXI_1/gen_mc8051_siu[0].i_mc8051_siu/s_rxpre_count_3>
+   <XLXI_1/gen_mc8051_siu[0].i_mc8051_siu/s_rxpre_count_4> <XLXI_1/gen_mc8051_siu[0].i_mc8051_siu/s_rxpre_count_5> 
+INFO:Xst:2261 - The FF/Latch <11> in Unit <LPM_LATCH_1> is equivalent to the following 10 FFs/Latches, which will be removed : <10> <9> <8> <7> <6> <5> <4> <3> <2> <1> 
+INFO:Xst:2261 - The FF/Latch <state_0> in Unit <control_mem> is equivalent to the following 38 FFs/Latches, which will be removed : <state_1> <state_2> <acc_0> <pc_0> <pc_1> <pc_2> <pc_3> <pc_4> <pc_5> <pc_6> <pc_7> <pc_8> <pc_9> <pc_10> <pc_11> <pc_12> <pc_13> <pc_14> <pc_15> <pcon_0> <pcon_1> <pcon_2> <pcon_3> <s_wt_0_0> <s_wt_0_1> <sp_3> <sp_4> <sp_5> <sp_6> <sp_7> <dph_0> <dph_1> <dph_2> <dph_3> <dph_4> <dph_5> <dph_6> <dph_7> 
+INFO:Xst:2261 - The FF/Latch <p0_0> in Unit <control_mem> is equivalent to the following 11 FFs/Latches, which will be removed : <sp_0> <sp_1> <sp_2> <s_p0_0> <s_p0_1> <s_p0_2> <s_p0_3> <s_p0_4> <s_p0_5> <s_p0_6> <s_p0_7> 
+WARNING:Xst:1710 - FF/Latch <11> (without init value) has a constant value of 0 in block <LPM_LATCH_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <0> (without init value) has a constant value of 1 in block <LPM_LATCH_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <p0_0> (without init value) has a constant value of 1 in block <control_mem>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <state_0> has a constant value of 0 in block <control_mem>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_int0_sync_0> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <XLXI_1/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_pre_count_0> of sequential type is unconnected in block <top>.
+
+Optimizing unit <top> ...
+
+Optimizing unit <control_fsm> ...
+
+Optimizing unit <SPIMaster> ...
+
+Optimizing unit <alumux> ...
+
+Optimizing unit <alucore> ...
+
+Optimizing unit <comb_divider> ...
+
+Optimizing unit <dcml_adjust> ...
+
+Optimizing unit <addsub_ovcy> ...
+
+Optimizing unit <control_mem> ...
+WARNING:Xst:2677 - Node <XLXI_20/state_q_FSM_FFd2> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_20/state_q_FSM_FFd1> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_20/new_data_q> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_20/mosi_q> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_20/sck_q_1> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_20/sck_q_0> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_20/data_q_7> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_20/data_q_6> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_20/data_q_5> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_20/data_q_4> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_20/data_q_3> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_20/data_q_2> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_20/data_q_1> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_20/data_q_0> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_20/ctr_q_2> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_20/ctr_q_1> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <XLXI_20/ctr_q_0> of sequential type is unconnected in block <top>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <XLXI_1/i_mc8051_alu/gen_multiplier1.i_comb_mltplr/Mmult_product_o> is unconnected in block <top>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : top.ngr
+Top Level Output File Name         : top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 4
+#      AND2                        : 1
+#      GND                         : 1
+#      INV                         : 1
+#      VCC                         : 1
+# RAMS                             : 2
+#      RAMB16_S9                   : 2
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 10
+#      IBUF                        : 1
+#      IBUFG                       : 1
+#      OBUF                        : 8
+# DCMs                             : 1
+#      DCM_SP                      : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                        1  out of   4656     0%  
+ Number of 4 input LUTs:                  1  out of   9312     0%  
+ Number of IOs:                          18
+ Number of bonded IOBs:                  10  out of    232     4%  
+ Number of BRAMs:                         2  out of     20    10%  
+ Number of GCLKs:                         2  out of     24     8%  
+ Number of DCMs:                          1  out of      4    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+ROMaddr<0>                         | NONE(XLXI_11/ROM2k_01) | 2     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 26.00 secs
+Total CPU time to Xst completion: 26.08 secs
+ 
+--> 
+
+Total memory usage is 344024 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  261 (   0 filtered)
+Number of infos    :   11 (   0 filtered)
+
